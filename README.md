@@ -25,15 +25,14 @@ Data diperoleh melalui **GitHub API** crawling, mencakup informasi temporal, ide
 
 ## 🔬 Research Questions
 
-kirana tolong isi filed ini nanti
 ### 1. Estimation Layer
-
+Berapa probabilitas sebuah PR di-merge, dan seberapa tidak pasti estimasi tersebut?
 
 ### 2. Inference / Testing Layer
-
+Apakah rata-rata jumlah komentar berbeda secara signifikan antara PR yang merged vs unmerged?
 
 ### 3. Simulation Layer
-
+Berapa probabilitas sebuah issue butuh lebih dari 30 hari untuk ditutup?
 
 ---
 
@@ -48,6 +47,6 @@ kirana tolong isi filed ini nanti
 |------------------------|--------------|
 | Raynar Usman Annafis   | 15196250xx   | 
 | Zaky Aditya Susanto    | 1519625023   |
-| Bethelina              | 15196250xx   |
-| Kirana                 | 15196250xx   | 
+| Bethelina Imanuella Y  | 1519625014   |
+| Kirana Cinta Mentari   | 1519625021   | 
 | Luqman                 | 15196250xx   | 
