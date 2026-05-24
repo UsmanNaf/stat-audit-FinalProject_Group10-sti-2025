@@ -1,0 +1,790 @@
+id,number,title,status,state,created_at,updated_at,closed_at,user,comments
+4488268215,65697,"Revert ""BUG: reject unhashable elements in Index constructor (#64798)""",merged,closed,2026-05-20T16:38:19Z,2026-05-21T19:21:10Z,2026-05-20T21:22:12Z,jorisvandenbossche,1
+4487130682,65693,[backport 3.0.x] TST: Adjust xfails for fastparquet 2026.05.0 (#65668),merged,closed,2026-05-20T14:03:23Z,2026-05-20T16:39:58Z,2026-05-20T16:33:10Z,jorisvandenbossche,0
+4480153069,65686,BUG: Fix Index.where raising AssertionError when other is a RangeIndex,merged,closed,2026-05-19T18:54:58Z,2026-05-21T17:51:34Z,2026-05-21T14:34:32Z,anzinmhd,7
+4472686052,65681,ASV: garbage collect as part of setup,merged,closed,2026-05-18T21:24:09Z,2026-05-23T17:27:03Z,2026-05-23T17:26:56Z,rhshadrach,1
+4469701000,65680,Bump github/codeql-action from 4.35.4 to 4.35.5,merged,closed,2026-05-18T13:54:43Z,2026-05-18T15:27:47Z,2026-05-18T15:27:45Z,dependabot[bot],0
+4462411508,65668,CI: Update pixi.lock + TST: Adjust xfails for fastparquet 2026.05.0,merged,closed,2026-05-17T05:31:42Z,2026-05-20T14:04:01Z,2026-05-20T13:55:50Z,github-actions[bot],3
+4461922275,65666,PERF: Add ArrowExtensionArray.view fast path,merged,closed,2026-05-17T01:38:45Z,2026-05-20T20:20:15Z,2026-05-20T02:44:57Z,rhshadrach,2
+4460584878,65658,PERF: use Index._id for axis-identity checks in concat fast paths,merged,closed,2026-05-16T16:34:22Z,2026-05-16T17:20:49Z,2026-05-16T17:20:38Z,rhshadrach,1
+4456958017,65653,BUG: Preserve dtype in Index.where,merged,closed,2026-05-15T21:05:55Z,2026-05-15T23:52:15Z,2026-05-15T23:52:07Z,rhshadrach,1
+4456876786,65651,CLN: Reduce and cleanup benchmarks/algorithms,merged,closed,2026-05-15T20:50:18Z,2026-05-16T18:17:45Z,2026-05-16T17:08:20Z,rhshadrach,1
+4453216109,65648,PERF: Improve performance of groupby.size,merged,closed,2026-05-15T10:34:08Z,2026-05-20T16:04:57Z,2026-05-20T16:04:50Z,rhshadrach,2
+4448155983,65642,DOC: clarify scalar vs list-like return types for .loc and [],merged,closed,2026-05-14T18:03:53Z,2026-05-17T02:34:59Z,2026-05-16T17:03:54Z,jbrockmendel,1
+4448142202,65641,"DOC: clarify df[col]= replaces a column vs df.loc[:, col]= setting in place",merged,closed,2026-05-14T18:01:45Z,2026-05-15T18:56:45Z,2026-05-15T16:23:00Z,jbrockmendel,1
+4448109075,65640,DOC: clarify column-wise NA-skipping behavior of GroupBy.first/last,merged,closed,2026-05-14T17:56:17Z,2026-05-19T20:33:56Z,2026-05-19T20:30:12Z,jbrockmendel,1
+4448025966,65639,TYP: enable mypy checks for pandas._libs.tslibs,merged,closed,2026-05-14T17:42:09Z,2026-05-15T18:57:10Z,2026-05-15T16:24:13Z,jbrockmendel,1
+4447995138,65638,DOC: clarify pandas.unique return type,merged,closed,2026-05-14T17:37:26Z,2026-05-17T02:34:33Z,2026-05-16T17:22:25Z,jbrockmendel,1
+4447941128,65637,DOC: list IntervalIndex.get_loc and get_indexer on the API reference page,merged,closed,2026-05-14T17:28:57Z,2026-05-15T18:56:19Z,2026-05-15T16:24:57Z,jbrockmendel,1
+4447900810,65636,DOC: spell out low_memory split-value hazard in read_csv/read_table,merged,closed,2026-05-14T17:22:48Z,2026-05-17T02:33:36Z,2026-05-16T17:25:10Z,jbrockmendel,1
+4447735889,65634,DOC: document default axis=0 on DataFrame reductions,merged,closed,2026-05-14T16:58:50Z,2026-05-17T02:33:25Z,2026-05-16T17:26:46Z,jbrockmendel,1
+4441519533,65631,DOC: relax MultiIndex.from_tuples 'tuples' parameter description,merged,closed,2026-05-13T22:09:51Z,2026-05-14T17:20:41Z,2026-05-14T16:45:25Z,jbrockmendel,1
+4440092624,65630,TYP: enable mypy checks for pandas._libs.parsers,merged,closed,2026-05-13T17:58:19Z,2026-05-14T17:19:18Z,2026-05-14T16:46:48Z,jbrockmendel,1
+4439861282,65629,TYP: enable mypy checks for low-hanging _libs stubs,merged,closed,2026-05-13T17:18:42Z,2026-05-17T02:35:09Z,2026-05-16T17:18:05Z,jbrockmendel,0
+4438850578,65628,BUG: AreaPlot ymin baseline pin defeated by unrelated sharey'd axes,merged,closed,2026-05-13T14:48:33Z,2026-05-13T17:20:41Z,2026-05-13T17:17:26Z,jbrockmendel,3
+4438683763,65627,ENH: support dtype=complex64/complex128 in read_csv C engine (GH-9379),merged,closed,2026-05-13T14:25:28Z,2026-05-13T17:03:19Z,2026-05-13T16:47:22Z,jbrockmendel,1
+4433587963,65625,TST: show actual ymin/ymax in test_area_lim flake,merged,closed,2026-05-13T00:29:22Z,2026-05-13T01:23:00Z,2026-05-13T01:23:00Z,jbrockmendel,0
+4433517612,65624,TYP: enable mypy checking for pandas.core.dtypes.missing,merged,closed,2026-05-13T00:14:04Z,2026-05-13T17:20:18Z,2026-05-13T17:18:19Z,jbrockmendel,1
+4433501240,65623,DOC: explain why to prefer to_numpy/.array over .values,merged,closed,2026-05-13T00:09:38Z,2026-05-13T17:03:09Z,2026-05-13T16:51:18Z,jbrockmendel,1
+4433171312,65622,DOC: clarify header parameter in read_csv/read_table,merged,closed,2026-05-12T22:48:25Z,2026-05-13T17:02:56Z,2026-05-13T16:52:23Z,jbrockmendel,1
+4433157753,65621,DOC: document dict input to DataFrame.assign (GH-49817),merged,closed,2026-05-12T22:45:40Z,2026-05-13T17:02:38Z,2026-05-13T16:53:18Z,jbrockmendel,1
+4433134159,65620,DOC: clarify several docstrings,merged,closed,2026-05-12T22:40:41Z,2026-05-15T18:56:06Z,2026-05-15T16:15:19Z,jbrockmendel,1
+4433124282,65619,DOC: clarify that to_parquet/to_orc path accepts remote URLs,merged,closed,2026-05-12T22:38:38Z,2026-05-13T17:00:38Z,2026-05-13T16:54:08Z,jbrockmendel,1
+4433084805,65618,TYP: enable mypy checks for pandas._libs.algos,merged,closed,2026-05-12T22:29:45Z,2026-05-13T14:33:01Z,2026-05-13T14:26:51Z,jbrockmendel,0
+4430202640,65616,CLN: remove unused functions,merged,closed,2026-05-12T14:57:42Z,2026-05-12T17:08:51Z,2026-05-12T16:12:32Z,jbrockmendel,1
+4425392845,65614,TYP: enable mypy checking for pandas._testing,merged,closed,2026-05-12T01:05:00Z,2026-05-12T17:07:40Z,2026-05-12T16:16:25Z,jbrockmendel,1
+4425343370,65613,TYP: enable mypy on pandas.core._numba.executor,merged,closed,2026-05-12T00:52:32Z,2026-05-12T22:24:58Z,2026-05-12T19:20:50Z,jbrockmendel,0
+4425340992,65612,TYP: enable mypy for pandas.core.computation.common,merged,closed,2026-05-12T00:51:47Z,2026-05-12T17:08:19Z,2026-05-12T16:17:50Z,jbrockmendel,0
+4425335659,65611,TYP: enable mypy checks for pandas.util,merged,closed,2026-05-12T00:50:07Z,2026-05-12T22:24:38Z,2026-05-12T19:21:38Z,jbrockmendel,1
+4425301139,65610,TYP: enable pyright checking for pandas.compat.pickle_compat,merged,closed,2026-05-12T00:39:54Z,2026-05-12T17:09:20Z,2026-05-12T16:18:59Z,jbrockmendel,0
+4425260745,65609,Backport PR #65591 on branch 3.0.x (BUG: fix np_datetime.c include order to avoid numpy nightly segfault),merged,closed,2026-05-12T00:28:19Z,2026-05-12T08:27:29Z,2026-05-12T08:27:29Z,meeseeksmachine,0
+4424020914,65605,DOC: explain Index.slice_locs missing-label behavior (GH-32680),merged,closed,2026-05-11T20:22:11Z,2026-05-12T17:08:36Z,2026-05-12T16:22:05Z,jbrockmendel,1
+4423902090,65600,ERR: point to workaround when appending HDF5 categoricals with different categories,merged,closed,2026-05-11T20:03:20Z,2026-05-12T17:08:08Z,2026-05-12T16:29:35Z,jbrockmendel,1
+4423899120,65599,TST: read_stata far-future dates no longer overflow (GH-36096),merged,closed,2026-05-11T20:02:53Z,2026-05-12T17:07:12Z,2026-05-12T16:27:48Z,jbrockmendel,1
+4423896288,65598,BUG: avoid materializing full arange in HDFStore chunked iteration (GH-15937),merged,closed,2026-05-11T20:02:25Z,2026-05-12T17:09:53Z,2026-05-12T16:31:30Z,jbrockmendel,1
+4423889976,65596,TST: regression test for concat preserving NaN payload bits (GH-51675),merged,closed,2026-05-11T20:01:28Z,2026-05-13T10:42:58Z,2026-05-12T16:26:13Z,jbrockmendel,2
+4423779671,65594,TYP: enable mypy checks on pandas.core.indexes.category,merged,closed,2026-05-11T19:43:12Z,2026-05-12T17:54:36Z,2026-05-12T17:47:27Z,jbrockmendel,1
+4422905174,65592,DEPR: deprecate include/exclude on Series.describe (GH-54193),merged,closed,2026-05-11T17:30:20Z,2026-05-16T15:31:28Z,2026-05-16T15:31:11Z,jbrockmendel,1
+4422892085,65591,BUG: fix np_datetime.c include order to avoid numpy nightly segfault,merged,closed,2026-05-11T17:28:21Z,2026-05-12T00:42:36Z,2026-05-12T00:27:44Z,jbrockmendel,2
+4422148305,65590,RLS: 3.0.3,merged,closed,2026-05-11T15:38:41Z,2026-05-11T16:12:09Z,2026-05-11T16:12:03Z,jorisvandenbossche,0
+4421453951,65589,RLS: update whatsnew for 3.0.3,merged,closed,2026-05-11T14:01:16Z,2026-05-11T15:37:30Z,2026-05-11T15:27:32Z,jorisvandenbossche,1
+4420224458,65586,Bump github/codeql-action from 4.35.3 to 4.35.4,merged,closed,2026-05-11T10:57:35Z,2026-05-11T13:53:05Z,2026-05-11T13:53:03Z,dependabot[bot],0
+4420102367,65585,BUG: fix is_monotonic_increasing/decreasing properties for ExtensionArrays,merged,closed,2026-05-11T10:39:01Z,2026-05-14T00:34:01Z,2026-05-14T00:33:52Z,jorisvandenbossche,1
+4418200277,65584,DOC: Update documentation for DataFrame join parameters,merged,closed,2026-05-11T05:03:44Z,2026-05-11T20:44:05Z,2026-05-11T20:43:58Z,Katze2664,1
+4417044639,65582,BUG: clearer error for HDFStore MultiIndex level named 'index' (GH-6208),merged,closed,2026-05-10T22:40:40Z,2026-05-12T17:10:05Z,2026-05-12T16:33:18Z,jbrockmendel,1
+4416568685,65579,Update link to `tzdata` documentation,merged,closed,2026-05-10T19:16:38Z,2026-05-11T15:20:46Z,2026-05-11T15:18:09Z,StanFromIreland,1
+4416478593,65578,BUG: clearer error for unsupported dtypes in HDFStore,merged,closed,2026-05-10T18:38:26Z,2026-05-11T16:05:53Z,2026-05-11T15:35:09Z,jbrockmendel,1
+4414741853,65569,CI: Update pixi.lock,merged,closed,2026-05-10T05:24:27Z,2026-05-12T09:39:28Z,2026-05-12T09:39:13Z,github-actions[bot],2
+4414225570,65567,"BUG: round-trip TimedeltaIndex through to_hdf(format=""table"") (GH-21466)",merged,closed,2026-05-10T00:37:13Z,2026-05-17T02:34:43Z,2026-05-16T17:16:19Z,jbrockmendel,0
+4414184332,65566,BUG: support PeriodDtype values in HDFStore (GH-41978),merged,closed,2026-05-10T00:14:37Z,2026-05-11T16:06:47Z,2026-05-11T15:22:37Z,jbrockmendel,1
+4413954592,65565,CLN: drop removed .bool() from __bool__ ambiguous-truth message (GH-61417),merged,closed,2026-05-09T22:02:31Z,2026-05-11T16:07:06Z,2026-05-11T15:20:34Z,jbrockmendel,1
+4413481379,65563,DOC: document compiled regex with flags in replace (GH-32233),merged,closed,2026-05-09T18:32:20Z,2026-05-11T16:06:26Z,2026-05-11T15:24:27Z,jbrockmendel,1
+4413478090,65562,"BUG: clearer error for read_csv(BytesIO, memory_map=True) (GH-45630)",merged,closed,2026-05-09T18:31:17Z,2026-05-11T16:05:16Z,2026-05-11T15:40:24Z,jbrockmendel,1
+4413453417,65561,DOC: warn raw=True ndarray lacks .iloc/.index in Rolling/Expanding.apply (GH-38809),merged,closed,2026-05-09T18:24:05Z,2026-05-11T16:05:38Z,2026-05-11T15:43:15Z,jbrockmendel,1
+4413400781,65560,DOC: document infer_nrows=np.inf for read_fwf (GH-21970),merged,closed,2026-05-09T18:07:57Z,2026-05-11T16:04:37Z,2026-05-11T15:46:11Z,jbrockmendel,1
+4412759315,65556,TST: add test for kendall correlation with duplicates,merged,closed,2026-05-09T14:15:26Z,2026-05-12T00:19:48Z,2026-05-12T00:19:42Z,Alvaro-Kothe,2
+4412754593,65555,TYP: fix frame apply reduction typing,merged,closed,2026-05-09T14:13:22Z,2026-05-14T01:25:13Z,2026-05-13T17:49:28Z,sun-0-set,1
+4409922373,65551,BUG: fix `groupby` cumprod/cummin/cummax dropping nullable int dtype when group key has `NA`,merged,closed,2026-05-08T22:59:14Z,2026-05-15T11:33:37Z,2026-05-15T11:33:31Z,gautamvarmadatla,1
+4409884115,65549,TYP: annotate pandas/_config/config.py,merged,closed,2026-05-08T22:49:43Z,2026-05-08T23:56:50Z,2026-05-08T23:51:52Z,jbrockmendel,1
+4409832471,65548,TYP: enable mypy checking for pandas.util._decorators,merged,closed,2026-05-08T22:38:27Z,2026-05-11T16:06:12Z,2026-05-11T15:25:44Z,jbrockmendel,1
+4409803535,65547,TYP: annotate pandas/io/excel/_pyxlsb and drop from mypy overrides,merged,closed,2026-05-08T22:32:31Z,2026-05-08T23:57:22Z,2026-05-08T23:52:53Z,jbrockmendel,1
+4409800580,65546,DOC: fix relativedelta link in DateOffset See Also,merged,closed,2026-05-08T22:31:53Z,2026-05-09T16:55:15Z,2026-05-08T23:54:32Z,jbrockmendel,2
+4409775244,65545,DOC: clarify GroupBy.resample parameters (GH-54295),merged,closed,2026-05-08T22:26:33Z,2026-05-09T15:06:00Z,2026-05-09T11:59:19Z,jbrockmendel,1
+4409745468,65544,DOC: clarify read_fwf filepath_or_buffer description (GH-55790),merged,closed,2026-05-08T22:20:09Z,2026-05-08T23:58:40Z,2026-05-08T23:57:05Z,jbrockmendel,1
+4409700735,65543,TYP: enable mypy on pandas.compat.numpy.function,merged,closed,2026-05-08T22:10:36Z,2026-05-08T23:59:29Z,2026-05-08T23:58:20Z,jbrockmendel,1
+4409697150,65542,DOC: clarify result_type has no effect for ufuncs in DataFrame.apply,merged,closed,2026-05-08T22:09:44Z,2026-05-09T00:00:28Z,2026-05-08T23:59:47Z,jbrockmendel,1
+4409676220,65541,TYP: enable mypy checking for pandas.core.sorting,merged,closed,2026-05-08T22:04:44Z,2026-05-09T00:03:33Z,2026-05-09T00:00:52Z,jbrockmendel,1
+4409663321,65540,TYP: enable mypy disallow_untyped_defs for pandas.core.roperator,merged,closed,2026-05-08T22:01:32Z,2026-05-09T00:03:04Z,2026-05-09T00:01:49Z,jbrockmendel,1
+4409656432,65539,DOC: document Rolling.apply Series index when on= is specified,merged,closed,2026-05-08T21:59:50Z,2026-05-09T00:03:21Z,2026-05-09T00:02:40Z,jbrockmendel,1
+4409653485,65538,DOC: clarify ExcelWriter engine vs package names (GH-48514),merged,closed,2026-05-08T21:59:02Z,2026-05-11T16:05:01Z,2026-05-11T15:47:40Z,jbrockmendel,1
+4409615013,65537,TYP: enable mypy checks on pandas.core.dtypes.generic,merged,closed,2026-05-08T21:50:59Z,2026-05-09T00:05:57Z,2026-05-09T00:04:02Z,jbrockmendel,1
+4409596843,65535,TYP: enable mypy on core.internals.api,merged,closed,2026-05-08T21:47:11Z,2026-05-09T00:06:11Z,2026-05-09T00:05:19Z,jbrockmendel,1
+4409579358,65534,TYP: enable mypy checking for pandas.core.window.online,merged,closed,2026-05-08T21:43:15Z,2026-05-09T00:07:33Z,2026-05-09T00:06:35Z,jbrockmendel,1
+4409569568,65533,TYP: type-check pandas.core.sample,merged,closed,2026-05-08T21:41:07Z,2026-05-09T15:00:19Z,2026-05-09T11:53:40Z,jbrockmendel,1
+4409563088,65532,"DOC: clarify from_spmatrix converts to CSC, not COO (GH-43419)",merged,closed,2026-05-08T21:39:38Z,2026-05-12T17:07:24Z,2026-05-12T16:32:16Z,jbrockmendel,1
+4409534718,65531,CLN: drop stale pre-commit exclude for deleted code_style.rst,merged,closed,2026-05-08T21:34:25Z,2026-05-09T00:10:38Z,2026-05-09T00:08:30Z,jbrockmendel,1
+4409515992,65530,TST: DataFrame.sum(axis=1) min_count for SparseDtype columns,merged,closed,2026-05-08T21:30:34Z,2026-05-15T21:13:06Z,2026-05-15T21:12:56Z,oskarseweryn,5
+4407893883,65527,"DOC: drop dead redirects, generate ExtensionDtype member pages",merged,closed,2026-05-08T16:37:50Z,2026-05-09T00:10:52Z,2026-05-09T00:09:46Z,jbrockmendel,1
+4404414683,65522,DOC: rewrite DataFrameGroupBy.hist docstring for groupby,merged,closed,2026-05-08T06:46:29Z,2026-05-08T17:53:09Z,2026-05-08T17:53:03Z,oskarseweryn,1
+4403901771,65520,Backport PR #65436 on branch 3.0.x (Account for privatization of matplotlib `Formatter.locs` attribute),merged,closed,2026-05-08T05:01:35Z,2026-05-08T13:26:28Z,2026-05-08T07:49:39Z,ayshih,2
+4402923187,65517,"DOC: fix broken refs, math, and grammar in window user guide",merged,closed,2026-05-08T00:48:35Z,2026-05-08T17:54:02Z,2026-05-08T17:48:39Z,jbrockmendel,1
+4402905962,65516,DOC: fix pyenv path example in contributing_environment,merged,closed,2026-05-08T00:44:34Z,2026-05-08T14:20:47Z,2026-05-08T07:51:32Z,jbrockmendel,0
+4402842985,65514,DOC: refresh deprecation/version policy doc for PDEP-17,merged,closed,2026-05-08T00:27:34Z,2026-05-08T17:21:01Z,2026-05-08T17:20:18Z,jbrockmendel,1
+4402801988,65512,TYP: annotate OpsMixin comparison/arith/logical dunders with Self (GH-40762),merged,closed,2026-05-08T00:18:02Z,2026-05-08T17:46:46Z,2026-05-08T17:45:25Z,jbrockmendel,1
+4402185827,65509,TST: regression tests for Timestamp.fromisoformat tz preservation (GH-56398),merged,closed,2026-05-07T21:37:33Z,2026-05-08T17:53:52Z,2026-05-08T17:50:56Z,jbrockmendel,1
+4402156657,65508,BUG: to_julian_date ignored timezone (GH-54763),merged,closed,2026-05-07T21:30:47Z,2026-05-08T17:53:39Z,2026-05-08T17:52:16Z,jbrockmendel,1
+4402138355,65506,BUG: groupby(as_index=False).resample().agg(dict) raises (GH-52397),merged,closed,2026-05-07T21:26:29Z,2026-05-08T17:42:26Z,2026-05-08T17:40:33Z,jbrockmendel,1
+4401986759,65505,DOC: steer Excel docs away from deprecated xlrd/pyxlsb engines,merged,closed,2026-05-07T21:01:25Z,2026-05-08T17:28:08Z,2026-05-08T17:26:11Z,jbrockmendel,1
+4401872794,65504,DOC: explain why and/or/not cannot be used with pd.NA,merged,closed,2026-05-07T20:45:18Z,2026-05-08T17:28:21Z,2026-05-08T17:27:24Z,jbrockmendel,1
+4401866189,65503,"DOC: fix docstring typos, stale references, and broken reST",merged,closed,2026-05-07T20:44:02Z,2026-05-08T17:27:32Z,2026-05-08T17:24:59Z,jbrockmendel,1
+4400224795,65501,Backport PR #65499 on branch 3.0.x (BUG: fix check if pyarrow is installed in cython lib - use existing constant),merged,closed,2026-05-07T16:10:49Z,2026-05-07T17:32:36Z,2026-05-07T17:32:36Z,meeseeksmachine,0
+4397737499,65499,BUG: fix check if pyarrow is installed in cython lib - use existing constant,merged,closed,2026-05-07T09:42:32Z,2026-05-07T18:19:46Z,2026-05-07T16:10:34Z,jorisvandenbossche,1
+4397071425,65498,[backport 3.0.x] PERF: remove special casing for zoneinfo in tz_localize_to_utc (#65481),merged,closed,2026-05-07T07:52:45Z,2026-05-07T09:00:08Z,2026-05-07T09:00:02Z,jorisvandenbossche,0
+4397017406,65497,TST: improve pytest configuration to run tests of installed package with --pyargs,merged,closed,2026-05-07T07:43:20Z,2026-05-07T18:19:21Z,2026-05-07T16:17:16Z,jorisvandenbossche,1
+4396765805,65496,TYP: accept Mapping in Styler.format formatter parameter,merged,closed,2026-05-07T06:59:27Z,2026-05-07T14:11:42Z,2026-05-07T14:11:34Z,janosh,1
+4394644583,65493,TST: extend complex128 coverage in arithmetic and NumpyExtensionArray tests,merged,closed,2026-05-06T21:45:08Z,2026-05-08T17:56:12Z,2026-05-08T17:54:36Z,jbrockmendel,1
+4394554897,65492,"DOC: remove cookbook ""First Pull Request"" invitation",merged,closed,2026-05-06T21:27:52Z,2026-05-07T00:12:43Z,2026-05-06T22:14:19Z,jbrockmendel,1
+4394302518,65491,CLN: remove stale FIXME comments in BlockManager,merged,closed,2026-05-06T20:43:37Z,2026-05-07T00:12:33Z,2026-05-06T22:18:59Z,jbrockmendel,1
+4394245786,65490,Backport PR #65482 on branch 3.0.x (PERF: don't call unique on dtypes for checking if string dtype is present (select_dtypes)),merged,closed,2026-05-06T20:33:55Z,2026-05-06T22:17:54Z,2026-05-06T22:17:54Z,meeseeksmachine,0
+4393085146,65489,Backport PR #65410 on branch 3.0.x (TST: also convert str index to object in pyarrow->pandas conversion for infer_string=0 CI),merged,closed,2026-05-06T16:59:55Z,2026-05-06T18:06:20Z,2026-05-06T18:06:20Z,meeseeksmachine,0
+4391440849,65486,[backport 3.0.x] CI: lowercase types-pymysql/types-pyyaml to fix mamba 2.6.0 shard lookup (#65430),merged,closed,2026-05-06T12:47:45Z,2026-05-06T13:54:08Z,2026-05-06T13:53:49Z,jorisvandenbossche,0
+4391343296,65485,[backport 3.0.x] BUG: keep fsspec OpenFile alive for chained URL reads (#65470),merged,closed,2026-05-06T12:33:14Z,2026-05-06T13:54:12Z,2026-05-06T13:54:04Z,jorisvandenbossche,0
+4390190973,65482,PERF: don't call unique on dtypes for checking if string dtype is present (select_dtypes),merged,closed,2026-05-06T09:21:40Z,2026-05-07T20:55:02Z,2026-05-06T20:33:47Z,jorisvandenbossche,4
+4389999904,65481,PERF: remove special casing for zoneinfo in tz_localize_to_utc,merged,closed,2026-05-06T08:49:38Z,2026-05-07T09:00:34Z,2026-05-06T15:59:16Z,jorisvandenbossche,3
+4389978691,65480,Backport PR #64379 on branch 3.0.x (PERF: improve performance with ZoneInfo timezones (get internal transitions/deltas to avoid slow python path)),merged,closed,2026-05-06T08:45:39Z,2026-05-07T07:30:00Z,2026-05-07T07:30:00Z,meeseeksmachine,0
+4387375541,65476,TST/CLN: salvage or remove FIXME-commented-out tests,merged,closed,2026-05-05T22:03:18Z,2026-05-07T16:22:53Z,2026-05-07T16:18:47Z,jbrockmendel,1
+4387006153,65474,Remove Source Files From gitignore,merged,closed,2026-05-05T20:46:43Z,2026-05-06T22:24:59Z,2026-05-06T22:24:52Z,Alvaro-Kothe,1
+4384915554,65470,BUG: keep fsspec OpenFile alive for chained URL reads,merged,closed,2026-05-05T14:39:33Z,2026-05-06T12:33:51Z,2026-05-05T16:36:10Z,jorisvandenbossche,4
+4381617116,65466,DEPR: deprecate inplace keyword in the rename() method,merged,closed,2026-05-05T04:52:29Z,2026-05-12T04:37:07Z,2026-05-11T08:43:07Z,tamhahn,7
+4381117838,65465,TYP: typing for IndexSlice,merged,closed,2026-05-05T02:43:36Z,2026-05-05T16:38:44Z,2026-05-05T16:38:36Z,Dr-Irv,1
+4378065534,65464,[pre-commit.ci] pre-commit autoupdate,merged,closed,2026-05-04T16:30:09Z,2026-05-04T22:29:43Z,2026-05-04T22:29:41Z,pre-commit-ci[bot],0
+4377751054,65463,CI: Update pixi.lock,merged,closed,2026-05-04T15:29:53Z,2026-05-05T13:03:29Z,2026-05-05T13:03:26Z,github-actions[bot],0
+4376730801,65461,CI: add rendered diff to pixi update workflow,merged,closed,2026-05-04T12:54:04Z,2026-05-04T15:28:23Z,2026-05-04T15:21:41Z,jorisvandenbossche,1
+4375400121,65459,Bump github/codeql-action from 4.35.2 to 4.35.3,merged,closed,2026-05-04T09:25:10Z,2026-05-04T15:07:15Z,2026-05-04T15:07:13Z,dependabot[bot],0
+4372987416,65455,CI: Clean misc workflows and files,merged,closed,2026-05-03T21:06:59Z,2026-05-10T16:08:41Z,2026-05-10T16:08:35Z,mroeschke,0
+4372319927,65454,DOC: add dict example for DataFrame.fillna,merged,closed,2026-05-03T16:21:59Z,2026-05-08T17:59:44Z,2026-05-08T17:59:38Z,ishanvaibhav,1
+4372289796,65453,BUG: use tables on ASV benchmark on non-conda environment types,merged,closed,2026-05-03T16:10:00Z,2026-05-04T15:28:45Z,2026-05-04T15:28:37Z,Alvaro-Kothe,1
+4372206260,65451,TST: address resolvable FIXMEs in tests,merged,closed,2026-05-03T15:33:37Z,2026-05-04T15:31:26Z,2026-05-04T15:31:19Z,jbrockmendel,1
+4372165000,65450,CLN: Address actionable FIXMEs in vendored ujson,merged,closed,2026-05-03T15:16:50Z,2026-05-04T15:38:45Z,2026-05-04T15:32:49Z,jbrockmendel,1
+4372076188,65449,BLD: Add --no-isolation to ASV Build Command,merged,closed,2026-05-03T14:38:01Z,2026-05-03T17:30:46Z,2026-05-03T17:30:40Z,Alvaro-Kothe,1
+4370945819,65447,CI: Update pixi.lock,merged,closed,2026-05-03T05:21:18Z,2026-05-03T17:25:56Z,2026-05-03T17:25:54Z,github-actions[bot],0
+4368357986,65445,DOC: clarify PeriodIndex.is_full behavior with duplicate periods,merged,closed,2026-05-02T07:47:58Z,2026-05-14T16:18:43Z,2026-05-03T14:36:58Z,vkverma9534,2
+4363483212,65441,DOC: clarify missing-value handling in pandas and NumPy reductions,merged,closed,2026-05-01T08:04:13Z,2026-05-06T00:44:38Z,2026-05-06T00:44:31Z,praneethhere,3
+4362360644,65440,TST: regression test for to_timedelta with sub-int64 NumPy scalars (GH-56996),merged,closed,2026-05-01T01:53:18Z,2026-05-02T00:48:26Z,2026-05-01T16:11:54Z,jbrockmendel,1
+4362344479,65439,TST: regression test for concat with keys and mixed-freq PeriodIndex columns,merged,closed,2026-05-01T01:47:40Z,2026-05-07T16:23:07Z,2026-05-07T16:20:18Z,jbrockmendel,1
+4362336291,65438,BUG: Period.strftime crashes on Windows for invalid format strings,merged,closed,2026-05-01T01:45:09Z,2026-05-03T20:43:51Z,2026-05-03T17:36:43Z,jbrockmendel,1
+4362326349,65437,BUG: DataFrame repr raising TypeError for structured-dtype column (GH-55011),merged,closed,2026-05-01T01:41:25Z,2026-05-02T00:47:48Z,2026-05-01T16:14:16Z,jbrockmendel,1
+4360912786,65436,Account for privatization of matplotlib `Formatter.locs` attribute,merged,closed,2026-04-30T20:01:27Z,2026-05-08T07:47:32Z,2026-05-03T15:21:05Z,ayshih,6
+4360091389,65435,BUG: Timestamp with 1-3 digit BC year silently drops leading '-' (GH-55954),merged,closed,2026-04-30T17:38:11Z,2026-05-03T20:44:03Z,2026-05-03T17:38:52Z,jbrockmendel,1
+4360072271,65434,CLN: fill in placeholder GH refs in test comments,merged,closed,2026-04-30T17:34:35Z,2026-05-02T00:47:57Z,2026-05-01T16:08:41Z,jbrockmendel,1
+4359754904,65433,CI: Update pixi.lock,merged,closed,2026-04-30T16:40:03Z,2026-05-04T13:30:54Z,2026-05-02T17:16:51Z,github-actions[bot],4
+4359713392,65432,"DEPR: %n directive in Period.strftime, use %N instead",merged,closed,2026-04-30T16:33:11Z,2026-05-18T14:50:07Z,2026-05-17T13:24:27Z,jbrockmendel,1
+4359661383,65431,BUG: restore array-level state and avoid object roundtrip in DataFrame._append_internal,merged,closed,2026-04-30T16:24:55Z,2026-05-07T13:54:38Z,2026-05-07T13:03:12Z,jbrockmendel,1
+4359632980,65430,CI: lowercase types-pymysql/types-pyyaml to fix mamba 2.6.0 shard lookup,merged,closed,2026-04-30T16:20:12Z,2026-05-06T12:48:03Z,2026-05-01T11:26:45Z,jbrockmendel,4
+4359535659,65429,REF: drop freq attribute from DTA/TDA arrays (GH-24566),merged,closed,2026-04-30T16:06:07Z,2026-04-30T17:00:27Z,2026-04-30T16:58:15Z,jbrockmendel,1
+4357046831,65426,DOC: fix name of Bamboo weekly author,merged,closed,2026-04-30T09:43:53Z,2026-04-30T20:19:55Z,2026-04-30T20:19:48Z,jorisvandenbossche,1
+4356621056,65425,Backport PR #65399 on branch 3.0.x (DOC: fix source link for classes in the reference docs),merged,closed,2026-04-30T08:39:27Z,2026-04-30T09:20:26Z,2026-04-30T09:20:26Z,meeseeksmachine,0
+4356543144,65424,CI: explicitly ignore .pixi/ for update workflow,merged,closed,2026-04-30T08:27:30Z,2026-04-30T16:38:41Z,2026-04-30T16:25:26Z,jorisvandenbossche,1
+4353926549,65422,"TST: add regression test for Timestamp(fold=..., tz=<str>) (GH-55932)",merged,closed,2026-04-29T21:59:35Z,2026-05-07T16:47:34Z,2026-05-07T16:21:33Z,jbrockmendel,1
+4353775497,65421,CLN: drop stale FIXME for closed pyperclip#55 in clipboard module,merged,closed,2026-04-29T21:27:08Z,2026-04-30T17:01:12Z,2026-04-30T16:54:13Z,jbrockmendel,1
+4353517251,65418,BUG: DataFrame.loc setitem-with-expansion preserves dtype for list-like values (GH-42099),merged,closed,2026-04-29T20:36:27Z,2026-05-06T18:39:55Z,2026-05-06T18:04:56Z,jbrockmendel,1
+4353512837,65417,CLN: remove dead JoinUnit._is_valid_na_for code in internals.concat,merged,closed,2026-04-29T20:35:30Z,2026-04-30T16:59:55Z,2026-04-30T16:53:34Z,jbrockmendel,1
+4352365802,65416,CLN: Replace stale 0.10.1 FIXME in use_dynamic_x,merged,closed,2026-04-29T17:13:50Z,2026-04-30T17:01:28Z,2026-04-30T16:52:32Z,jbrockmendel,1
+4351981411,65415,Backport PR #65411 on branch 3.0.x (CLN: only try to normalize pytz in index when pytz is installed),merged,closed,2026-04-29T16:06:50Z,2026-04-30T06:44:34Z,2026-04-30T06:44:34Z,meeseeksmachine,0
+4351113466,65413,BUG: Categorical.map with defaultdict replaces NA with NaN,merged,closed,2026-04-29T13:57:51Z,2026-05-06T05:28:28Z,2026-05-06T00:46:18Z,Mahajan-Sachin,5
+4350572094,65411,CLN: only try to normalize pytz in index when pytz is installed,merged,closed,2026-04-29T12:36:40Z,2026-04-30T06:44:23Z,2026-04-29T16:06:06Z,jorisvandenbossche,1
+4350549277,65410,TST: also convert str index to object in pyarrow->pandas conversion for infer_string=0 CI,merged,closed,2026-04-29T12:33:07Z,2026-05-07T07:49:17Z,2026-05-06T16:59:25Z,jorisvandenbossche,1
+4349598311,65409,PERF: skip to_datetime cache=True overhead for no-help input shapes (GH#65380),merged,closed,2026-04-29T10:05:35Z,2026-05-08T21:18:33Z,2026-05-08T21:18:27Z,arzaan789,1
+4348783872,65407,[backport 3.0.x] BUG: prevent using numexpr 2.10 with newer numpy to avoid silent wrong results (#65400),merged,closed,2026-04-29T07:51:07Z,2026-04-29T08:51:51Z,2026-04-29T08:51:48Z,jorisvandenbossche,0
+4348776238,65406,[backport 3.0.x] Parquet IO: also use zoneinfo timezones by default even when pyarrow uses pytz (#65134),merged,closed,2026-04-29T07:49:38Z,2026-04-29T08:51:43Z,2026-04-29T08:51:36Z,jorisvandenbossche,0
+4347115250,65405,DOC: Remove old tutorials,merged,closed,2026-04-29T00:35:03Z,2026-05-06T00:39:11Z,2026-05-05T22:32:00Z,rhshadrach,2
+4346999784,65404,Backport PR #65403 on branch 3.0.x (CI: pin pyodide-build to fix venv pip wrapper crash),merged,closed,2026-04-28T23:57:15Z,2026-04-29T07:52:52Z,2026-04-29T07:52:52Z,meeseeksmachine,0
+4345315263,65403,CI: pin pyodide-build to fix venv pip wrapper crash,merged,closed,2026-04-28T18:18:16Z,2026-04-29T01:00:42Z,2026-04-28T23:56:43Z,jbrockmendel,1
+4345163465,65402,TST: assert pyarrow's quoting ValueError instead of xfailing,merged,closed,2026-04-28T17:49:38Z,2026-04-28T19:00:22Z,2026-04-28T18:58:09Z,jbrockmendel,1
+4344227197,65401,"Backport PR #65147 on branch 3.0.x (BUG: fix `str.replace("""", ..)` with empty pattern hanging when using pyarrow)",merged,closed,2026-04-28T15:12:39Z,2026-04-29T08:18:19Z,2026-04-29T08:18:19Z,meeseeksmachine,0
+4344218553,65400,BUG: prevent using numexpr 2.10 with newer numpy to avoid silent wrong results,merged,closed,2026-04-28T15:11:12Z,2026-04-29T07:51:48Z,2026-04-28T17:50:37Z,jorisvandenbossche,5
+4344106982,65399,DOC: fix source link for classes in the reference docs,merged,closed,2026-04-28T14:53:48Z,2026-05-04T20:51:50Z,2026-04-30T08:39:18Z,jorisvandenbossche,1
+4343671649,65398,[backport 3.0.x] CI: fix numpy nightly DeprecationWarning for generic-unit datetime64/timedelta64 (#65340),merged,closed,2026-04-28T13:50:16Z,2026-04-28T15:11:52Z,2026-04-28T15:11:52Z,jorisvandenbossche,0
+4343540715,65397,"[backport 3.0.x] BUG: fix ""1 ,"" converting to 1 by `read_csv` c engine with thousands separator (#64631)",merged,closed,2026-04-28T13:31:08Z,2026-04-28T15:54:44Z,2026-04-28T15:54:43Z,jorisvandenbossche,0
+4341244241,65396,Bug/57962 loc iterable assignment,merged,closed,2026-04-28T07:06:57Z,2026-05-20T16:52:52Z,2026-05-14T17:46:45Z,mapanahi,4
+4340373381,65395,PERF: speed up to_offset string parsing,merged,closed,2026-04-28T03:25:29Z,2026-05-07T20:57:15Z,2026-05-07T20:53:53Z,jbrockmendel,1
+4340351445,65394,CLN: drop stale FIXME in ObjectStringArrayMixin._str_map,merged,closed,2026-04-28T03:19:19Z,2026-04-28T17:55:45Z,2026-04-28T17:52:36Z,jbrockmendel,1
+4340297321,65392,CLN: remove stale cython3 conditional-nogil TODO in rank_sorted_1d,merged,closed,2026-04-28T03:05:28Z,2026-04-28T16:45:40Z,2026-04-28T16:45:36Z,jbrockmendel,0
+4340294587,65391,BUG: infer_dtype treats pd.NA as a generic null in TemporalValidator,merged,closed,2026-04-28T03:04:54Z,2026-04-28T17:59:06Z,2026-04-28T17:56:47Z,jbrockmendel,1
+4340287192,65390,CLN: remove _offset_map cache in offsets.pyx,merged,closed,2026-04-28T03:03:12Z,2026-04-28T18:00:33Z,2026-04-28T18:00:03Z,jbrockmendel,1
+4340240655,65388,PERF: Speed up Timedelta.total_seconds,merged,closed,2026-04-28T02:51:59Z,2026-04-28T18:48:26Z,2026-04-28T18:46:46Z,jbrockmendel,1
+4340210410,65387,CLN: point cython3 TODOs at upstream cython#2485,merged,closed,2026-04-28T02:45:10Z,2026-04-28T17:55:27Z,2026-04-28T17:55:23Z,jbrockmendel,0
+4340116927,65385,"DOC: drop stale ""experimental"" notes and fix tab-completion list",merged,closed,2026-04-28T02:19:55Z,2026-04-29T14:33:24Z,2026-04-29T08:20:47Z,jbrockmendel,0
+4340064567,65383,TYP: tighten Timestamp/Timedelta round/floor/ceil return types,merged,closed,2026-04-28T02:07:15Z,2026-04-28T18:51:15Z,2026-04-28T18:50:11Z,jbrockmendel,1
+4336886283,65379,CI: allow running update-pixi-lock workflow on demand,merged,closed,2026-04-27T15:26:11Z,2026-04-27T18:02:51Z,2026-04-27T16:20:53Z,jorisvandenbossche,1
+4334484285,65376,Bump scientific-python/upload-nightly-action from 0.6.3 to 0.6.4,merged,closed,2026-04-27T09:05:15Z,2026-04-27T17:35:10Z,2026-04-27T17:35:08Z,dependabot[bot],0
+4332739057,65374,DOC: Add Pandas Workout book and Bamboo Weekly,merged,closed,2026-04-27T02:33:17Z,2026-04-28T02:18:51Z,2026-04-27T21:09:31Z,rhshadrach,2
+4330957458,65371,"DOC: fix to_numeric docstring - add Index/scalar return types, fix dtype_backend description",merged,closed,2026-04-26T13:20:35Z,2026-05-05T21:32:56Z,2026-05-05T21:32:50Z,Nikhil-jaiswal007,2
+4325660506,65363,PERF: speed up read_sas for full-precision numeric columns,merged,closed,2026-04-24T21:22:16Z,2026-04-28T19:00:32Z,2026-04-28T18:59:43Z,jbrockmendel,1
+4323411510,65360,BUG: Fix df.query() with 'in' operator and column references (#65357),merged,closed,2026-04-24T13:57:29Z,2026-05-03T13:51:03Z,2026-05-03T13:50:52Z,harrywzl,1
+4323205219,65359,CI: fix pixi.lock update workflow to handle PyPI deps,merged,closed,2026-04-24T13:24:00Z,2026-04-27T15:22:41Z,2026-04-27T15:20:29Z,jorisvandenbossche,1
+4321647138,65356,BUG: regression in bdate_range for end on weekend,merged,closed,2026-04-24T08:26:45Z,2026-04-28T06:27:50Z,2026-04-28T02:35:44Z,jorisvandenbossche,1
+4320039675,65354,DEPR: followup warn on .at setitem when a new column expands the frame,merged,closed,2026-04-24T02:10:37Z,2026-04-28T22:58:10Z,2026-04-28T21:12:34Z,jbrockmendel,1
+4317575342,65348,Backport PR #65346 on branch 3.0.x (CI: avoid pyarrow 25.0 for typing),merged,closed,2026-04-23T17:06:45Z,2026-04-24T06:43:51Z,2026-04-24T06:43:51Z,meeseeksmachine,0
+4317014652,65346,CI: avoid pyarrow 25.0 for typing,merged,closed,2026-04-23T15:19:54Z,2026-04-23T17:06:25Z,2026-04-23T17:06:16Z,jorisvandenbossche,1
+4314309778,65344,DOC: clarify tz_localize does not alter date/time representation (#55955),merged,closed,2026-04-23T07:34:20Z,2026-05-08T00:15:43Z,2026-05-08T00:15:35Z,oskarseweryn,3
+4313270325,65342,BUG: fix Series.combine_first crash when names are Timestamps (#65333),merged,closed,2026-04-23T03:24:49Z,2026-05-03T13:22:36Z,2026-05-03T13:22:25Z,Vincent08199,1
+4312097875,65341,DOC: document TextFileReader in the API reference,merged,closed,2026-04-22T22:04:22Z,2026-04-28T19:07:34Z,2026-04-28T19:06:30Z,jbrockmendel,1
+4312095984,65340,CI: fix numpy nightly DeprecationWarning for generic-unit datetime64/timedelta64,merged,closed,2026-04-22T22:03:52Z,2026-04-28T13:51:01Z,2026-04-23T16:53:12Z,jbrockmendel,3
+4312094316,65339,DOC: clarify resolution-dependence of Timestamp/Timedelta min/max/resolution,merged,closed,2026-04-22T22:03:23Z,2026-04-29T17:36:38Z,2026-04-29T16:10:46Z,jbrockmendel,2
+4312066184,65338,DOC: clarify that read_hdf only reads pandas-written HDF5 files,merged,closed,2026-04-22T21:55:43Z,2026-04-23T17:25:51Z,2026-04-23T17:19:17Z,jbrockmendel,1
+4311920469,65337,PERF: avoid dtype.name in DataFrame block grouping,merged,closed,2026-04-22T21:18:58Z,2026-05-06T18:40:09Z,2026-05-06T18:03:44Z,jbrockmendel,1
+4310559361,65335,ENH: Suggest alternative package managers in optional dependency error,merged,closed,2026-04-22T16:54:48Z,2026-05-11T21:17:29Z,2026-05-11T21:17:22Z,sh4dzilla,1
+4310277156,65334,[backport 3.0.x] REGR: restore rank() for ExtensionArrays with custom values for sorting (#64976),merged,closed,2026-04-22T16:03:07Z,2026-04-23T08:27:19Z,2026-04-23T08:27:19Z,jorisvandenbossche,0
+4307862245,65332,"BUG: fix empty groupby(..., as_index=False).apply(...) index name inconsistency",merged,closed,2026-04-22T08:56:08Z,2026-05-05T21:34:29Z,2026-05-05T21:34:23Z,Ashish-ml-eng,3
+4307425805,65331,CI: make wheel builds compilation more verbose,merged,closed,2026-04-22T07:32:08Z,2026-04-24T07:04:08Z,2026-04-24T07:04:04Z,jorisvandenbossche,0
+4305900938,65325,DOC: fix grammar in the .dt accessor section,merged,closed,2026-04-21T23:48:23Z,2026-04-22T01:00:35Z,2026-04-22T00:44:58Z,harrywzl,0
+4305888912,65323,DOC:Missing r in your,merged,closed,2026-04-21T23:44:03Z,2026-04-22T01:00:37Z,2026-04-22T00:45:21Z,harrywzl,0
+4305710260,65322,REF: relocate _freq storage from DTA/TDA arrays to Index (GH#24566),merged,closed,2026-04-21T22:49:21Z,2026-04-29T16:23:35Z,2026-04-29T16:20:55Z,jbrockmendel,1
+4303807513,65319,[backport 3.0.x] BUG: fix FloatingArray.astype(str) crash with distinguish_nan_and_na=True (#65038),merged,closed,2026-04-21T15:55:48Z,2026-04-21T16:50:43Z,2026-04-21T16:46:58Z,jorisvandenbossche,0
+4301622713,65318,BUG/TST: add test for _cast_pointwise_result robustness + fix some cases,merged,closed,2026-04-21T09:26:56Z,2026-04-21T21:00:01Z,2026-04-21T17:55:42Z,jorisvandenbossche,1
+4299900558,65316,BUG: Preserve nullable index dtype in `_transform_index`,merged,closed,2026-04-21T02:30:23Z,2026-04-29T08:29:56Z,2026-04-29T08:29:55Z,gautamvarmadatla,1
+4298686384,65313,[backport 3.0.x] BUG: fix to_timedelta ignoring unit for mixed round/non-round floats (#65170),merged,closed,2026-04-20T21:02:10Z,2026-04-21T16:12:03Z,2026-04-21T15:45:42Z,jbrockmendel,1
+4294378239,65310,Bump github/codeql-action from 4.35.1 to 4.35.2,merged,closed,2026-04-20T08:51:05Z,2026-04-20T15:39:56Z,2026-04-20T15:39:53Z,dependabot[bot],0
+4294376255,65309,Bump actions/setup-node from 6.3.0 to 6.4.0,merged,closed,2026-04-20T08:50:46Z,2026-04-20T15:39:18Z,2026-04-20T15:39:15Z,dependabot[bot],0
+4291871144,65302,PERF: preserve block memory layout in Block.copy (GH#60469),merged,closed,2026-04-19T20:00:33Z,2026-04-21T17:28:27Z,2026-04-21T17:22:17Z,jbrockmendel,1
+4291820320,65301,BUG: pivot_table margins with EA dtype that cannot hold NA (GH#55484),merged,closed,2026-04-19T19:38:52Z,2026-05-07T19:32:58Z,2026-05-07T17:34:21Z,jbrockmendel,1
+4291674773,65300,CI: Run code checks with Pixi,merged,closed,2026-04-19T18:36:41Z,2026-05-03T02:47:52Z,2026-05-03T02:47:49Z,mroeschke,1
+4291323016,65297,REF: remove redundant BaseMaskedArray.map override,merged,closed,2026-04-19T15:56:41Z,2026-04-20T15:50:25Z,2026-04-20T15:47:37Z,jbrockmendel,1
+4291233456,65295,PERF: unroll take_1d/take_2d inner loops with contig fast path,merged,closed,2026-04-19T15:17:48Z,2026-05-16T15:12:12Z,2026-05-16T14:17:36Z,jbrockmendel,1
+4289740205,65288,BUG: Fix formatters applied to wrong columns in truncated DataFrame.to_string (GH#35410),merged,closed,2026-04-19T02:32:22Z,2026-04-20T15:12:58Z,2026-04-20T15:12:49Z,tinezivic,1
+4289595046,65285,REF: continue moving freq management off DatetimeArray/TimedeltaArray (GH#24566),merged,closed,2026-04-19T00:49:23Z,2026-04-20T15:54:28Z,2026-04-20T15:52:31Z,jbrockmendel,1
+4289223141,65281,CI: Ensure PANDAS_VERSION is set in docbuild workflow,merged,closed,2026-04-18T21:28:45Z,2026-04-18T21:42:23Z,2026-04-18T21:42:21Z,mroeschke,0
+4288848250,65279,PERF: short-circuit sort_index(level=...) on monotonic non-MultiIndex,merged,closed,2026-04-18T18:33:18Z,2026-04-21T17:20:06Z,2026-04-21T17:14:57Z,jbrockmendel,1
+4288669223,65276,"REF: remove DatetimeArray._with_freq, further freq management cleanup (GH#24566)",merged,closed,2026-04-18T17:12:53Z,2026-04-18T21:36:08Z,2026-04-18T21:10:02Z,jbrockmendel,1
+4285650447,65273,BUG: fix segfault in Rolling method='table' sum/mean/median/min/max,merged,closed,2026-04-17T22:27:30Z,2026-04-18T21:39:51Z,2026-04-18T21:08:35Z,jbrockmendel,1
+4283715450,65271,CLN: too-verbose claude comments and whatsnew entries,merged,closed,2026-04-17T15:35:37Z,2026-04-17T16:03:52Z,2026-04-17T16:00:36Z,jbrockmendel,1
+4279508527,65268,BUG: Index.take respects fill_value and allows fills on integer dtypes,merged,closed,2026-04-17T01:18:41Z,2026-04-27T21:25:10Z,2026-04-27T20:54:17Z,jbrockmendel,2
+4278605723,65266,REF: move more freq management from DatetimeArray/TimedeltaArray to Index (GH#24566),merged,closed,2026-04-16T21:23:52Z,2026-04-18T17:06:34Z,2026-04-18T16:58:25Z,jbrockmendel,1
+4278427719,65265,REF: Index.where/putmask delegate to Series.where,merged,closed,2026-04-16T20:43:44Z,2026-05-20T09:01:43Z,2026-05-08T17:59:21Z,jbrockmendel,1
+4278397342,65264,BUG: fix loc setitem with list of tuples on object-dtype column,merged,closed,2026-04-16T20:37:12Z,2026-04-17T16:03:37Z,2026-04-17T16:02:12Z,jbrockmendel,1
+4278083598,65262,Backport PR #65255 on branch 3.0.x (BUG: fix addition of ArrowDtype with string vs large_large types),merged,closed,2026-04-16T19:35:44Z,2026-04-16T20:48:20Z,2026-04-16T20:48:20Z,meeseeksmachine,0
+4276207534,65261,[3.0.x] CI: fix test_dataframe_to_sql_empty for non-infer_string and newer adbc,merged,closed,2026-04-16T13:57:24Z,2026-04-16T19:26:44Z,2026-04-16T16:49:49Z,jorisvandenbossche,0
+4275971307,65260,[backport 3.0.x] BUG: read parquet files with older pytz (DEP: keep lower pytz minimum version) (#65133),merged,closed,2026-04-16T13:17:47Z,2026-04-16T16:16:44Z,2026-04-16T16:09:26Z,jorisvandenbossche,0
+4275944213,65259,Backport PR #65228 on branch 3.0.x (CI: set PKG_CONFIG_PATH to fix broken system Python headers),merged,closed,2026-04-16T13:12:51Z,2026-04-16T13:53:25Z,2026-04-16T13:53:25Z,meeseeksmachine,0
+4275933437,65258,DOC: move misplaced whatsnew note for GH-64836,merged,closed,2026-04-16T13:10:50Z,2026-04-16T13:58:50Z,2026-04-16T13:58:47Z,jorisvandenbossche,0
+4275910021,65257,[backport 3.0.x] CI: Fix numpy nightly build (#65197),merged,closed,2026-04-16T13:06:28Z,2026-04-16T13:53:03Z,2026-04-16T13:52:59Z,jorisvandenbossche,0
+4275871902,65256,Backport PR #64988 on branch 3.0.x (BUG: Fix pyarrow-backed string dtype addition with missing values),merged,closed,2026-04-16T12:59:31Z,2026-04-16T13:58:18Z,2026-04-16T13:58:17Z,meeseeksmachine,0
+4275829828,65255,BUG: fix addition of ArrowDtype with string vs large_large types,merged,closed,2026-04-16T12:51:55Z,2026-04-20T10:47:34Z,2026-04-16T19:35:13Z,jorisvandenbossche,1
+4265290812,65244,BUG: fix use-after-free in PyObjectHashTable,merged,closed,2026-04-14T23:23:19Z,2026-04-17T18:24:19Z,2026-04-17T15:49:52Z,jbrockmendel,2
+4265140293,65241,BUG: DataFrame.loc setitem with list-like value on single-column EA DataFrame,merged,closed,2026-04-14T22:44:22Z,2026-04-21T17:28:13Z,2026-04-21T17:23:23Z,jbrockmendel,1
+4265122009,65239,BUG: fix .loc with tuple key on MultiIndex with IntervalIndex level,merged,closed,2026-04-14T22:40:22Z,2026-04-21T17:37:15Z,2026-04-21T17:36:08Z,jbrockmendel,1
+4265023938,65235,BUG: DataFrame.loc setitem expands index when no columns,merged,closed,2026-04-14T22:15:27Z,2026-04-22T16:47:51Z,2026-04-22T16:28:22Z,jbrockmendel,1
+4265023937,65234,BUG: MultiIndex.get_loc returns scalar for unique key in non-unique index,merged,closed,2026-04-14T22:15:27Z,2026-04-21T20:32:30Z,2026-04-21T18:41:42Z,jbrockmendel,1
+4264994493,65233,REF: stop DatetimeArray/TimedeltaArray methods from reading self.freq,merged,closed,2026-04-14T22:07:47Z,2026-04-16T19:28:05Z,2026-04-16T17:50:05Z,jbrockmendel,1
+4264985227,65232,TST: add tests for .loc setitem with non-unique string index,merged,closed,2026-04-14T22:05:16Z,2026-04-16T19:27:47Z,2026-04-16T17:56:18Z,jbrockmendel,1
+4264951821,65230,BUG: MultiIndex.loc raises KeyError for string keys on numeric levels,merged,closed,2026-04-14T21:56:22Z,2026-04-16T19:28:44Z,2026-04-16T17:41:46Z,jbrockmendel,1
+4264940651,65229,BUG: DataFrame.loc preserves original index name when key is an Index,merged,closed,2026-04-14T21:53:26Z,2026-04-20T20:20:18Z,2026-04-20T20:20:15Z,jbrockmendel,0
+4264928347,65228,CI: set PKG_CONFIG_PATH to fix broken system Python headers,merged,closed,2026-04-14T21:50:19Z,2026-04-27T18:59:26Z,2026-04-15T15:54:55Z,jbrockmendel,6
+4263746237,65225,REF: consolidate _constructor_sliced_from_mgr call sites into _ixs,merged,closed,2026-04-14T17:32:12Z,2026-04-16T19:29:10Z,2026-04-16T17:37:13Z,jbrockmendel,1
+4263727017,65224,TST: add test for .at with incompatible Decimal type,merged,closed,2026-04-14T17:28:16Z,2026-04-17T00:47:41Z,2026-04-17T00:47:32Z,jbrockmendel,0
+4263199860,65221,BUG: DataFrame.at raises TypeError with partial date string on MultiIndex,merged,closed,2026-04-14T15:43:07Z,2026-04-16T19:29:23Z,2026-04-16T17:47:36Z,jbrockmendel,1
+4258554679,65219,BUG: `DataFrame.agg` with list-like funcs reintroduces filtered columns as `NaN` with `numeric_only=True`,merged,closed,2026-04-13T23:49:54Z,2026-04-30T01:35:46Z,2026-04-30T01:35:35Z,gautamvarmadatla,5
+4258373225,65217,BUG: DataFrame.duplicated() loses index when DataFrame has no columns,merged,closed,2026-04-13T23:00:00Z,2026-04-14T16:33:55Z,2026-04-14T16:29:47Z,jbrockmendel,1
+4258302000,65216,BLD: remove deprecated option cpython-freethreading,merged,closed,2026-04-13T22:39:41Z,2026-04-14T18:49:35Z,2026-04-14T18:49:35Z,Alvaro-Kothe,1
+4257171631,65214,TYP: fix mypy errors in get_values_for_csv,merged,closed,2026-04-13T18:54:37Z,2026-04-13T20:28:21Z,2026-04-13T20:28:17Z,jbrockmendel,0
+4256851028,65211,PERF: reduce per-group overhead in groupby.agg with UDFs,merged,closed,2026-04-13T17:55:26Z,2026-05-03T14:06:03Z,2026-05-03T13:42:01Z,jbrockmendel,2
+4256462262,65209,REF: stop DatetimeArray methods from reading self.freq,merged,closed,2026-04-13T16:41:24Z,2026-04-14T16:33:44Z,2026-04-14T16:31:04Z,jbrockmendel,1
+4255636459,65208,BUG: loc setitem with duplicate columns and new columns corrupts Data…,merged,closed,2026-04-13T14:29:10Z,2026-04-14T22:49:01Z,2026-04-14T21:52:21Z,roeimed0,3
+4252685828,65207,Bump peter-evans/create-pull-request from 8.1.0 to 8.1.1,merged,closed,2026-04-13T08:33:03Z,2026-04-13T15:49:43Z,2026-04-13T15:49:41Z,dependabot[bot],0
+4252685134,65206,Bump pypa/gh-action-pypi-publish from 1.13.0 to 1.14.0,merged,closed,2026-04-13T08:32:59Z,2026-04-13T16:03:48Z,2026-04-13T16:03:46Z,dependabot[bot],0
+4252684799,65204,Bump mymindstorm/setup-emsdk from 15 to 16,merged,closed,2026-04-13T08:32:56Z,2026-04-13T15:45:04Z,2026-04-13T15:45:02Z,dependabot[bot],0
+4252683529,65203,Bump actions/upload-artifact from 7.0.0 to 7.0.1,merged,closed,2026-04-13T08:32:46Z,2026-04-13T16:01:19Z,2026-04-13T16:01:17Z,dependabot[bot],0
+4252683052,65202,Bump actions/github-script from 8.0.0 to 9.0.0,merged,closed,2026-04-13T08:32:41Z,2026-04-13T15:42:41Z,2026-04-13T15:42:39Z,dependabot[bot],0
+4251289498,65201,Backport PR #64836 on branch 3.0.x (BUG: Timedelta.round() raises ZeroDivisionError when internal unit is 's' and target frequency is sub-second),merged,closed,2026-04-13T04:35:20Z,2026-04-14T01:05:46Z,2026-04-13T16:52:11Z,kjmin622,1
+4250384675,65199,PERF: pass how=left to _factorize_keys in _left_join_on_index (#65160),merged,closed,2026-04-13T00:05:59Z,2026-04-29T00:18:23Z,2026-04-29T00:18:16Z,iabhi4,4
+4249744238,65198,REF: merge PeriodArray branch in get_values_for_csv,merged,closed,2026-04-12T19:55:22Z,2026-04-13T16:08:07Z,2026-04-13T16:00:18Z,jbrockmendel,1
+4249634054,65197,CI: Fix numpy nightly build,merged,closed,2026-04-12T19:31:23Z,2026-04-16T13:06:49Z,2026-04-13T15:53:10Z,jbrockmendel,3
+4249535112,65196,CI: Add contents:write permission to relock workflow; relock,merged,closed,2026-04-12T19:04:14Z,2026-04-13T22:26:59Z,2026-04-13T22:25:47Z,mroeschke,2
+4248548031,65193,REF: move freq computation from TimedeltaArray arithmetic to TimedeltaIndex,merged,closed,2026-04-12T15:13:35Z,2026-04-12T19:02:41Z,2026-04-12T18:43:44Z,jbrockmendel,1
+4248525796,65192,PERF: short-circuit array_equivalent and equals comparisons,merged,closed,2026-04-12T15:08:44Z,2026-05-09T15:49:29Z,2026-05-09T15:43:52Z,jbrockmendel,1
+4248510644,65191,REF: stop array from propagating freq in core operations,merged,closed,2026-04-12T15:05:14Z,2026-04-13T17:13:49Z,2026-04-13T17:12:33Z,jbrockmendel,1
+4246167047,65188,BUG: IntervalArray/IntervalIndex constructors upcast sub-64-bit dtypes,merged,closed,2026-04-12T01:26:58Z,2026-04-12T19:02:14Z,2026-04-12T18:46:03Z,jbrockmendel,1
+4246076519,65186,BUG: fix TimedeltaIndex.resolution raising when freq is not set,merged,closed,2026-04-12T00:19:03Z,2026-04-12T19:01:57Z,2026-04-12T18:48:29Z,jbrockmendel,1
+4246018333,65185,"REF: move resolution, resolution_obj from arrays to indexes",merged,closed,2026-04-11T23:36:12Z,2026-04-12T20:47:13Z,2026-04-12T20:47:10Z,jbrockmendel,1
+4246015271,65184,REF: Move _get_arithmetic_result_freq from array to Index,merged,closed,2026-04-11T23:33:52Z,2026-04-12T19:03:05Z,2026-04-12T18:39:27Z,jbrockmendel,1
+4245963248,65182,REF: Move freq-based factorize short-circuit from array to Index,merged,closed,2026-04-11T22:55:57Z,2026-04-13T16:08:19Z,2026-04-13T16:02:31Z,jbrockmendel,1
+4245951803,65180,PERF: fix regression in NumericSeriesIndexing.time_loc_array,merged,closed,2026-04-11T22:49:12Z,2026-04-12T19:01:45Z,2026-04-12T18:51:52Z,jbrockmendel,1
+4245885802,65179,TST: add _honors_copy_keyword to extension test base class,merged,closed,2026-04-11T22:06:41Z,2026-04-18T17:06:54Z,2026-04-18T17:01:52Z,jbrockmendel,1
+4245549247,65177,TST: add mixed-int-string Index to conftest fixtures,merged,closed,2026-04-11T19:07:04Z,2026-04-16T19:28:55Z,2026-04-16T17:45:31Z,jbrockmendel,1
+4245542363,65176,PERF: restore libjoin fastpath for CategoricalIndex intersection/union,merged,closed,2026-04-11T19:03:13Z,2026-04-29T21:43:36Z,2026-04-29T21:39:36Z,jbrockmendel,3
+4245533804,65175,REF: remove GeoDataFrame shim in _constructor_from_mgr,merged,closed,2026-04-11T18:58:18Z,2026-04-15T14:59:37Z,2026-04-15T14:26:28Z,jbrockmendel,3
+4245528765,65174,REF: IntervalArray _validate_setitem_value delegates to _validate_scalar,merged,closed,2026-04-11T18:55:28Z,2026-04-16T19:28:22Z,2026-04-16T17:52:05Z,jbrockmendel,1
+4245493144,65171,REF: remove _Datetime64TZFormatter in favor of _Datetime64Formatter,merged,closed,2026-04-11T18:37:15Z,2026-04-12T19:01:24Z,2026-04-12T18:53:26Z,jbrockmendel,1
+4245476946,65170,BUG: fix to_timedelta ignoring unit for mixed round/non-round floats,merged,closed,2026-04-11T18:28:42Z,2026-04-21T15:46:15Z,2026-04-20T20:20:39Z,jbrockmendel,4
+4245449593,65168,BUG: Timedelta kwargs fall back to coarser resolution on overflow,merged,closed,2026-04-11T18:14:01Z,2026-04-16T19:27:15Z,2026-04-16T18:01:19Z,jbrockmendel,1
+4245363893,65167,CI: Add repo flag to GHA cache cleaup workflow,merged,closed,2026-04-11T17:40:03Z,2026-04-11T17:58:25Z,2026-04-11T17:58:22Z,mroeschke,1
+4245251844,65166,Backport PR #64294 on branch 3.0.x (TST: mark test_dt64arr_cmp_arraylike_invalid[tzlocal] xfail on Windows),merged,closed,2026-04-11T17:01:17Z,2026-04-13T17:13:31Z,2026-04-13T17:13:31Z,meeseeksmachine,0
+4245062099,65165,PERF: Use optimized take path for non-nanosecond datetime64/timedelta64,merged,closed,2026-04-11T15:52:10Z,2026-05-16T15:11:25Z,2026-05-16T14:08:28Z,jbrockmendel,2
+4242371998,65162,REF: Remove TimedeltaArray._from_sequence_not_strict,merged,closed,2026-04-11T00:47:09Z,2026-04-11T18:03:00Z,2026-04-11T17:03:56Z,jbrockmendel,1
+4242344961,65161,REF: remove unused nat_rep parameter from datetime/timedelta formatters,merged,closed,2026-04-11T00:35:32Z,2026-04-13T16:07:44Z,2026-04-13T15:57:45Z,jbrockmendel,1
+4241756167,65158,"REF: consolidate __iter__ into TimelikeOps, standardize _validate_setitem_value",merged,closed,2026-04-10T21:12:45Z,2026-04-11T18:02:49Z,2026-04-11T17:08:21Z,jbrockmendel,1
+4241164517,65157,BUG: raise clear TypeError for ExtensionArray.fillna with dict value,merged,closed,2026-04-10T18:56:31Z,2026-04-11T18:02:35Z,2026-04-11T17:10:19Z,jbrockmendel,1
+4241128094,65156,BUG: Series.transform now raises SpecificationError for duplicate function names (GH#54929),merged,closed,2026-04-10T18:48:16Z,2026-05-08T19:04:12Z,2026-05-08T19:04:05Z,galsakuri,1
+4241070815,65155,DOC: clarify unit parameter in to_datetime docstring,merged,closed,2026-04-10T18:36:45Z,2026-04-11T18:02:21Z,2026-04-11T17:12:08Z,jbrockmendel,1
+4241000374,65154,DOC: improve MultiIndex.is_monotonic_increasing/decreasing docstrings,merged,closed,2026-04-10T18:22:31Z,2026-04-10T21:08:01Z,2026-04-10T21:04:49Z,jbrockmendel,1
+4240571345,65153,"CLN: ASV config, use rattler for environment solving",merged,closed,2026-04-10T16:53:46Z,2026-04-12T18:57:23Z,2026-04-12T18:57:20Z,mroeschke,2
+4239226683,65149,DOC: clarify bool vs int behavior in object-dtype for factorize and unique,merged,closed,2026-04-10T12:44:56Z,2026-04-16T19:38:49Z,2026-04-16T19:38:14Z,123Alissaa,1
+4238643390,65148,CLN: Update groupby observed defaults,merged,closed,2026-04-10T11:00:54Z,2026-04-10T16:10:38Z,2026-04-10T16:10:32Z,rhshadrach,1
+4237385505,65147,"BUG: fix `str.replace("""", ..)` with empty pattern hanging when using pyarrow",merged,closed,2026-04-10T07:28:13Z,2026-04-30T05:05:14Z,2026-04-28T15:12:08Z,kjmin622,3
+4236631208,65146,CLN: Replace no_default signature with False for allow_duplicates in insert and reset_index,merged,closed,2026-04-10T04:45:16Z,2026-04-19T19:59:06Z,2026-04-19T19:59:00Z,tianlangqin,1
+4235571550,65144,DOC: update GroupBy.sum/min/max See Also sections,merged,closed,2026-04-09T23:54:11Z,2026-04-10T15:59:20Z,2026-04-10T10:54:42Z,jbrockmendel,1
+4235560265,65143,DOC: document required external libraries in read_* I/O docstrings,merged,closed,2026-04-09T23:50:42Z,2026-04-10T21:18:12Z,2026-04-10T21:11:22Z,jbrockmendel,1
+4235557980,65142,DOC: note that DataFrame.values is not writeable,merged,closed,2026-04-09T23:49:54Z,2026-04-10T17:26:54Z,2026-04-10T16:12:38Z,jbrockmendel,1
+4235370895,65141,BUG : update `SeriesGroupBy.ohlc()` to honor `as_index=False`,merged,closed,2026-04-09T22:56:07Z,2026-04-10T22:33:33Z,2026-04-10T22:33:19Z,gautamvarmadatla,1
+4234689649,65139,Backport PR #65137 on branch 3.0.x (DOC: update pytz/zoneinfo section in the 3.0.0 whatsnew notes),merged,closed,2026-04-09T20:17:31Z,2026-04-09T20:55:25Z,2026-04-09T20:55:25Z,meeseeksmachine,0
+4233691662,65138,DOC: Remove references to 'good first issue',merged,closed,2026-04-09T16:46:48Z,2026-04-09T17:47:54Z,2026-04-09T17:47:49Z,mroeschke,1
+4233548446,65137,DOC: update pytz/zoneinfo section in the 3.0.0 whatsnew notes,merged,closed,2026-04-09T16:17:16Z,2026-04-09T20:16:54Z,2026-04-09T20:16:51Z,jorisvandenbossche,1
+4232833457,65134,Parquet IO: also use zoneinfo timezones by default even when pyarrow uses pytz,merged,closed,2026-04-09T14:09:16Z,2026-04-29T07:51:26Z,2026-04-28T17:47:53Z,jorisvandenbossche,4
+4231037794,65133,BUG: read parquet files with older pytz (DEP: keep lower pytz minimum version),merged,closed,2026-04-09T09:20:10Z,2026-04-16T13:18:10Z,2026-04-10T16:56:18Z,jorisvandenbossche,7
+4230572250,65132,BLD: ensure to include subprojects (fast_float) in source distributions,merged,closed,2026-04-09T08:04:59Z,2026-04-09T15:54:12Z,2026-04-09T15:30:51Z,jorisvandenbossche,1
+4230458325,65131,BUG: Raise ValueError for non-boolean numeric_only in DataFrame/Series reductions (GH#53098),merged,closed,2026-04-09T07:47:45Z,2026-04-10T18:16:25Z,2026-04-10T17:37:36Z,galsakuri,3
+4229234264,65130,DOC: Replace XXX with Note in the code comments,merged,closed,2026-04-09T03:35:48Z,2026-04-09T15:33:54Z,2026-04-09T15:33:48Z,star1327p,1
+4228680299,65129,DOC: Fix non-standard default value formatting in Grouper docstring,merged,closed,2026-04-09T01:03:22Z,2026-05-02T18:19:27Z,2026-04-10T00:29:27Z,Vincent08199,1
+4228052431,65128,CLN: Import _global_config as config,merged,closed,2026-04-08T22:20:40Z,2026-04-16T15:34:50Z,2026-04-09T11:43:12Z,rhshadrach,5
+4225482816,65125,DOC: clarify hash_pandas_object index behavior with examples,merged,closed,2026-04-08T14:59:07Z,2026-04-09T16:29:54Z,2026-04-09T15:35:39Z,jbrockmendel,1
+4225479307,65124,DOC: clarify that tz_localize(ambiguous='infer') requires monotonic timestamps,merged,closed,2026-04-08T14:58:37Z,2026-04-09T16:30:16Z,2026-04-09T15:47:47Z,jbrockmendel,1
+4225474972,65123,DOC: clarify that ExtensionArray.take does not support scalar indices,merged,closed,2026-04-08T14:57:59Z,2026-04-09T16:30:30Z,2026-04-09T15:48:47Z,jbrockmendel,1
+4216288105,65110,DOC: improve cheatsheet README wording,merged,closed,2026-04-07T07:57:15Z,2026-04-07T15:09:05Z,2026-04-07T15:09:04Z,mrinal97-tech,0
+4214286314,65107,PERF: skip redundant take_nd in _Unstacker when indexer is identity,merged,closed,2026-04-06T21:59:06Z,2026-04-07T17:35:16Z,2026-04-07T17:21:35Z,jbrockmendel,1
+4214230729,65105,PERF: avoid transpose for axis=1 reductions on multi-block DataFrames,merged,closed,2026-04-06T21:44:19Z,2026-04-09T19:28:36Z,2026-04-09T18:14:44Z,jbrockmendel,1
+4214228459,65104,PERF: use PyArrow compute for month_name/day_name with string dtype,merged,closed,2026-04-06T21:43:44Z,2026-04-09T19:29:04Z,2026-04-09T18:12:57Z,jbrockmendel,1
+4214157116,65103,PERF: use ufunc.reduceat for sorted groupby aggregations,merged,closed,2026-04-06T21:25:16Z,2026-05-22T00:24:36Z,2026-05-19T16:23:42Z,jbrockmendel,7
+4213700887,65101, BUG: `GroupBy.any()`/`all()` returns `NaN` for unobserved categorical groups on bool dtype,merged,closed,2026-04-06T19:38:32Z,2026-04-07T13:29:40Z,2026-04-07T13:29:31Z,gautamvarmadatla,1
+4213560382,65099,ENH: Add replace method to Index (closes #19495),merged,closed,2026-04-06T19:09:22Z,2026-04-10T17:28:46Z,2026-04-10T17:28:40Z,berasaikat,4
+4213102564,65095,check dtype kind before monotonic/unique in _maybe_promote_to_rangeindex,merged,closed,2026-04-06T17:37:24Z,2026-04-06T18:52:23Z,2026-04-06T18:52:15Z,gautamvarmadatla,1
+4213073353,65094,PERF: remove redundant per-column casting loop in _append_internal,merged,closed,2026-04-06T17:31:31Z,2026-04-30T15:40:18Z,2026-04-09T18:14:20Z,jbrockmendel,3
+4212787034,65090,[pre-commit.ci] pre-commit autoupdate,merged,closed,2026-04-06T16:30:53Z,2026-04-06T18:53:10Z,2026-04-06T18:53:09Z,pre-commit-ci[bot],0
+4212758061,65089,CI: Move permissions block in pixi lock workflow up to job id,merged,closed,2026-04-06T16:23:49Z,2026-04-06T17:06:18Z,2026-04-06T17:06:16Z,mroeschke,0
+4210494671,65088,Bump prefix-dev/setup-pixi from 0.9.4 to 0.9.5,merged,closed,2026-04-06T08:21:07Z,2026-04-06T15:10:38Z,2026-04-06T15:10:36Z,dependabot[bot],0
+4210494194,65087,Bump pypa/cibuildwheel from 3.4.0 to 3.4.1,merged,closed,2026-04-06T08:21:02Z,2026-04-06T17:04:54Z,2026-04-06T17:04:52Z,dependabot[bot],1
+4210493632,65086,Bump mymindstorm/setup-emsdk from 14 to 15,merged,closed,2026-04-06T08:20:54Z,2026-04-06T15:09:33Z,2026-04-06T15:09:30Z,dependabot[bot],0
+4208324682,65084,CI: Allow relock workflow to write pull requests,merged,closed,2026-04-05T18:48:20Z,2026-04-05T19:37:38Z,2026-04-05T19:37:35Z,mroeschke,0
+4205831712,65075,CI: Build documentation using pixi,merged,closed,2026-04-04T21:19:58Z,2026-04-18T21:07:28Z,2026-04-18T21:07:22Z,mroeschke,3
+4205564131,65074,CI: Run ASV benchmark test with pixi,merged,closed,2026-04-04T18:39:42Z,2026-04-04T20:25:31Z,2026-04-04T20:25:29Z,mroeschke,1
+4205515229,65073,CLN: Remove TRACE macro in tokenizer,merged,closed,2026-04-04T18:14:20Z,2026-04-04T19:49:11Z,2026-04-04T19:40:00Z,mroeschke,1
+4205300516,65070,DOC: fix typo in timeseries documentation (ns -> us),merged,closed,2026-04-04T16:31:35Z,2026-04-04T16:54:39Z,2026-04-04T16:54:33Z,csz022,1
+4202865216,65061,TST: Add regression test for to_csv with utf-16 encoding,merged,closed,2026-04-04T01:17:28Z,2026-04-06T16:39:01Z,2026-04-06T15:33:11Z,jbrockmendel,1
+4202845320,65060,TST: Add regression test for read_csv memory_map with multi-char sep,merged,closed,2026-04-04T01:07:50Z,2026-04-06T16:40:04Z,2026-04-06T15:35:49Z,jbrockmendel,1
+4202826450,65059,TST: Add regression test for read_csv escapechar round-trip,merged,closed,2026-04-04T00:59:13Z,2026-04-06T16:38:47Z,2026-04-06T15:38:21Z,jbrockmendel,1
+4202825951,65058,TST: Add roundtrip regression test for to_csv with embedded newlines,merged,closed,2026-04-04T00:58:50Z,2026-04-04T18:13:06Z,2026-04-04T16:57:30Z,jbrockmendel,1
+4202759795,65057,BUG: use uint64_t instead of size_t for row counts in CSV parser,merged,closed,2026-04-04T00:33:38Z,2026-04-04T18:18:19Z,2026-04-04T18:15:47Z,jbrockmendel,2
+4202729396,65056,DEPR: deprecate inference of datetime.date objects as datetime64,merged,closed,2026-04-04T00:25:23Z,2026-04-09T23:37:04Z,2026-04-09T23:28:51Z,jbrockmendel,2
+4201404271,65054,PERF: minor optimizations in _libs.algos,merged,closed,2026-04-03T17:07:26Z,2026-04-04T18:12:53Z,2026-04-04T17:07:21Z,jbrockmendel,1
+4199339776,65048,CLN: remove unnecessary usage of option_context with future.infer_string in tests,merged,closed,2026-04-03T08:55:28Z,2026-04-09T07:06:19Z,2026-04-09T07:06:16Z,jorisvandenbossche,1
+4198065236,65046,PERF: add no_nans fast path in nancorr,merged,closed,2026-04-03T03:26:15Z,2026-04-03T17:02:01Z,2026-04-03T16:51:42Z,jbrockmendel,1
+4197347566,65042,PERF: avoid redundant category re-validation in Categorical._simple_new,merged,closed,2026-04-02T22:49:29Z,2026-04-06T13:17:53Z,2026-04-03T00:21:37Z,jbrockmendel,3
+4197262177,65041,BUG: fix numpy ufuncs (e.g. np.isnan) raising TypeError on pyarrow dtypes with distinguish_nan_and_na enabled,merged,closed,2026-04-02T22:22:32Z,2026-04-30T15:28:51Z,2026-04-30T08:34:06Z,jbrockmendel,3
+4197260578,65039,DOC: perf impact of to_numpy() defaulting to object dtype for tz-aware datetime,merged,closed,2026-04-02T22:21:55Z,2026-04-16T20:09:28Z,2026-04-16T20:09:25Z,jbrockmendel,2
+4197260081,65038,BUG: fix FloatingArray.astype(str) crash with distinguish_nan_and_na=True,merged,closed,2026-04-02T22:21:43Z,2026-04-21T16:11:46Z,2026-04-21T15:51:06Z,jbrockmendel,6
+4197190697,65036,CLN: remove using_cow parameter from _iLocIndexer._align_series,merged,closed,2026-04-02T21:59:34Z,2026-04-03T00:43:07Z,2026-04-03T00:23:04Z,jbrockmendel,1
+4196952739,65033,CI: Bump Pixi version and relock,merged,closed,2026-04-02T20:58:54Z,2026-04-02T21:54:10Z,2026-04-02T21:54:03Z,mroeschke,0
+4196944030,65032,DOC: clarify object-dtype ndarray inference in Index and Series,merged,closed,2026-04-02T20:56:53Z,2026-05-13T17:35:52Z,2026-05-13T17:35:46Z,sdejhgfu,2
+4196241588,65031,PERF: Use DataFrame-level reductions in DataFrame.agg with list of funcs,merged,closed,2026-04-02T18:25:36Z,2026-04-10T21:17:52Z,2026-04-10T21:12:39Z,jbrockmendel,2
+4195876526,65030,PERF: speed up Index._engine construction,merged,closed,2026-04-02T17:10:14Z,2026-04-02T21:59:50Z,2026-04-02T21:59:04Z,jbrockmendel,1
+4195819526,65028,PERF: avoid expensive DataFrame snapshot in loc.__setitem__,merged,closed,2026-04-02T16:57:51Z,2026-04-03T19:53:27Z,2026-04-03T18:14:44Z,jbrockmendel,1
+4195814482,65027,PERF: restore hash table pre-allocation in value_count,merged,closed,2026-04-02T16:56:50Z,2026-04-03T21:42:56Z,2026-04-03T20:36:27Z,jbrockmendel,1
+4195781480,65026,PERF: restore kh_get before kh_put in hashtable operations,merged,closed,2026-04-02T16:49:29Z,2026-04-06T16:38:10Z,2026-04-06T16:00:02Z,jbrockmendel,1
+4195660280,65025,CLN: py2 leftover comments mostly,merged,closed,2026-04-02T16:22:54Z,2026-04-02T22:04:50Z,2026-04-02T22:02:03Z,jbrockmendel,1
+4195605238,65024,BUG: Categorical repr values line now respects display.width,merged,closed,2026-04-02T16:12:49Z,2026-04-04T19:06:26Z,2026-04-04T19:05:05Z,jbrockmendel,1
+4195587857,65023,Backport PR #64993 on branch 3.0.x (CI: Fix numpy nightly failures from generic timedelta64 deprecation),merged,closed,2026-04-02T16:10:09Z,2026-04-02T23:23:13Z,2026-04-02T23:23:13Z,meeseeksmachine,0
+4195585778,65022,BUG: Index repr attributes now wrap to respect display.width,merged,closed,2026-04-02T16:09:53Z,2026-04-04T19:02:00Z,2026-04-04T19:00:38Z,jbrockmendel,1
+4195551463,65021,TST: add tests for DataFrame indexing with DateOffset columns,merged,closed,2026-04-02T16:03:39Z,2026-04-02T22:01:20Z,2026-04-02T22:00:32Z,jbrockmendel,1
+4195530031,65019,TST: Add regression test for concat with tz_convert MonthStart index,merged,closed,2026-04-02T15:59:29Z,2026-04-03T19:53:16Z,2026-04-03T18:17:28Z,jbrockmendel,1
+4195376589,65016,PERF: fix O(n) linear scan in _bin_search for ObjectEngine.get_loc,merged,closed,2026-04-02T15:29:42Z,2026-04-02T22:05:00Z,2026-04-02T22:04:15Z,jbrockmendel,1
+4195320077,65014,"BUG: date_range with start==end and inclusive=""left""/""right"" returns empty",merged,closed,2026-04-02T15:20:31Z,2026-04-03T21:42:22Z,2026-04-03T20:38:05Z,jbrockmendel,1
+4195307915,65012,BUG: DatetimeIndex constructor raises for equivalent freqs,merged,closed,2026-04-02T15:18:37Z,2026-04-06T16:53:01Z,2026-04-06T16:50:38Z,jbrockmendel,1
+4195306193,65011,BUG: date_range with periods=1 raises for offsets that disallow n=0,merged,closed,2026-04-02T15:18:18Z,2026-04-03T00:42:55Z,2026-04-03T00:25:12Z,jbrockmendel,1
+4195292992,65009,BUG: Fix AssertionError in replace with out-of-bounds datetime,merged,closed,2026-04-02T15:16:19Z,2026-04-03T17:00:08Z,2026-04-03T16:54:59Z,jbrockmendel,1
+4195286664,65007,DOC: Document ambiguous and nonexistent params in date_range,merged,closed,2026-04-02T15:15:26Z,2026-04-02T16:13:06Z,2026-04-02T16:12:09Z,jbrockmendel,1
+4195243435,65006,PERF: avoid data copy in DataFrame.drop for non-contiguous columns,merged,closed,2026-04-02T15:08:45Z,2026-04-02T17:28:29Z,2026-04-02T17:22:03Z,jbrockmendel,1
+4195236419,65005,PERF: avoid redundant isna in NumpyExtensionArray.to_numpy,merged,closed,2026-04-02T15:07:44Z,2026-04-02T17:27:08Z,2026-04-02T17:23:18Z,jbrockmendel,1
+4194705713,65004,DEV: remove unused tooling/debug Docker directory,merged,closed,2026-04-02T13:43:42Z,2026-04-09T23:28:43Z,2026-04-09T23:28:36Z,AKSHAY355-a,4
+4191675435,64998,DOC: clarify Series index alignment behavior in DataFrame.assign,merged,closed,2026-04-02T05:06:02Z,2026-05-06T16:50:57Z,2026-05-06T16:50:50Z,rustamali9183,1
+4189559413,64993,CI: Fix numpy nightly failures from generic timedelta64 deprecation,merged,closed,2026-04-01T20:04:11Z,2026-04-02T16:10:26Z,2026-04-02T16:09:35Z,jbrockmendel,1
+4189423615,64992,TST: add test for display.precision with float in object index,merged,closed,2026-04-01T19:37:57Z,2026-04-02T16:49:48Z,2026-04-02T16:44:45Z,jbrockmendel,1
+4189388226,64991,PERF: add nogil and cdivision declarations in _libs.algos,merged,closed,2026-04-01T19:29:59Z,2026-04-02T16:18:22Z,2026-04-02T16:17:37Z,jbrockmendel,1
+4188719151,64989,DOC: Fix observed default value in pivot_table docstring,merged,closed,2026-04-01T17:36:40Z,2026-04-01T21:37:54Z,2026-04-01T20:25:28Z,Vincent08199,1
+4188308586,64988,BUG: Fix pyarrow-backed string dtype addition with missing values,merged,closed,2026-04-01T16:37:52Z,2026-04-16T12:59:00Z,2026-04-16T12:59:00Z,Abineshabee,8
+4188101523,64987,CI: Don't gh auth when trying to clean caches,merged,closed,2026-04-01T16:06:59Z,2026-04-01T16:44:20Z,2026-04-01T16:44:17Z,mroeschke,1
+4187733990,64986,API/DOC: remove iterability requirement for file-like object + clarify requirements in IO docstrings,merged,closed,2026-04-01T15:14:08Z,2026-04-03T14:33:16Z,2026-04-03T09:03:51Z,jbrockmendel,4
+4187733747,64985,DOC: note optional dependencies for remote URL schemes in read_* docstrings,merged,closed,2026-04-01T15:14:06Z,2026-04-01T15:41:34Z,2026-04-01T15:39:49Z,jbrockmendel,1
+4187733613,64984,"DOC: remove stale ""if level specified"" from reduction docstrings",merged,closed,2026-04-01T15:14:05Z,2026-04-01T15:36:04Z,2026-04-01T15:32:46Z,jbrockmendel,1
+4187733415,64983,DOC: clarify eval/query performance guidance (GH#35367),merged,closed,2026-04-01T15:14:03Z,2026-04-01T15:37:56Z,2026-04-01T15:36:33Z,jbrockmendel,1
+4187729451,64982,DOC: document silent integer overflow in gotchas page,merged,closed,2026-04-01T15:13:31Z,2026-04-01T20:17:35Z,2026-04-01T20:14:54Z,jbrockmendel,1
+4187713594,64981,DOC: clarify NDFrame.get returns default when any list key is missing,merged,closed,2026-04-01T15:11:31Z,2026-04-01T15:35:36Z,2026-04-01T15:34:19Z,jbrockmendel,1
+4184964075,64976,REGR: restore rank() for ExtensionArrays with custom values for sorting,merged,closed,2026-04-01T07:59:25Z,2026-04-22T16:03:45Z,2026-04-21T22:45:37Z,jorisvandenbossche,6
+4184747716,64975,DOC: move 3.1 whatsnew to its own section in index.rst,merged,closed,2026-04-01T07:18:53Z,2026-04-01T15:56:11Z,2026-04-01T15:31:24Z,jorisvandenbossche,1
+4184734371,64974,[backport 3.0.x] DOC: start 3.0.3 whatsnew notes (#64942),merged,closed,2026-04-01T07:16:18Z,2026-04-01T14:14:31Z,2026-04-01T14:14:24Z,jorisvandenbossche,0
+4182244845,64972,BUG: fix DataFrame repr exceeding terminal width after horizontal truncation,merged,closed,2026-03-31T20:46:02Z,2026-04-02T16:30:12Z,2026-04-02T16:28:01Z,jbrockmendel,1
+4181998125,64971,DOC: Note that groupby column becomes the index in 10min tutorial,merged,closed,2026-03-31T20:04:31Z,2026-03-31T20:43:18Z,2026-03-31T20:37:05Z,jbrockmendel,1
+4181986933,64970,ENH: Support f-string formatting for Period objects,merged,closed,2026-03-31T20:02:27Z,2026-03-31T22:48:44Z,2026-03-31T22:15:55Z,jbrockmendel,1
+4181408968,64967,DOC: remove stale references to removed parse_dates modes in io.rst,merged,closed,2026-03-31T18:28:36Z,2026-03-31T20:43:32Z,2026-03-31T20:34:59Z,jbrockmendel,1
+4181319796,64965,DOC: Remove dateutil and scipy intersphinx mappings,merged,closed,2026-03-31T18:12:49Z,2026-03-31T20:30:50Z,2026-03-31T19:11:27Z,mroeschke,1
+4180734295,64964,TST: add test for comma-separated fractional seconds in Timestamp,merged,closed,2026-03-31T16:48:39Z,2026-03-31T17:46:25Z,2026-03-31T17:44:00Z,jbrockmendel,1
+4180688639,64963,TST: add regression test for datetime64 column index parquet roundtrip,merged,closed,2026-03-31T16:41:25Z,2026-03-31T20:43:05Z,2026-03-31T20:36:01Z,jbrockmendel,1
+4180635689,64961,"TST: add test for shift(freq=""infer"") with float-converted DatetimeIndex",merged,closed,2026-03-31T16:32:50Z,2026-03-31T17:43:11Z,2026-03-31T17:42:10Z,jbrockmendel,1
+4180628026,64960,DOC: clarify pickle compatibility is only within major versions,merged,closed,2026-03-31T16:31:37Z,2026-04-29T21:36:54Z,2026-04-29T21:36:46Z,jbrockmendel,4
+4180330751,64958,ENH: DataFrame(list_of_arrays) preserves uniform dtype,merged,closed,2026-03-31T15:49:23Z,2026-03-31T22:46:43Z,2026-03-31T22:18:20Z,jbrockmendel,1
+4180322537,64957,BUG: Index.fillna with tuple fill value,merged,closed,2026-03-31T15:48:18Z,2026-03-31T22:46:21Z,2026-03-31T22:20:03Z,jbrockmendel,1
+4180310206,64956,BUG: pd.array raises IntCastingNaNError for float-with-NaN to integer dtype,merged,closed,2026-03-31T15:46:35Z,2026-04-01T17:04:37Z,2026-04-01T16:49:24Z,jbrockmendel,2
+4180304777,64955,"BUG: SparseArray.astype(""Sparse[int64]"") silently replaced NaT fill_value with 0",merged,closed,2026-03-31T15:45:47Z,2026-03-31T22:46:11Z,2026-03-31T22:27:15Z,jbrockmendel,1
+4180270754,64953,BUG: DatetimeIndex._is_comparable_dtype raises AttributeError on Arrow date types,merged,closed,2026-03-31T15:40:40Z,2026-04-03T19:53:38Z,2026-04-03T18:15:55Z,jbrockmendel,1
+4180269470,64952,BUG: NumpyExtensionArray._validate_setitem_value fails to raise for incompatible values,merged,closed,2026-03-31T15:40:30Z,2026-04-02T16:52:10Z,2026-04-02T16:41:00Z,jbrockmendel,2
+4180265487,64951,BUG: fix CategoricalIndex.union/intersection with mismatched category order,merged,closed,2026-03-31T15:39:52Z,2026-04-02T16:52:57Z,2026-04-02T16:40:27Z,jbrockmendel,1
+4180231147,64950,TST: add tests for assert_frame_equal/assert_series_equal near int64 bounds,merged,closed,2026-03-31T15:34:47Z,2026-03-31T17:38:13Z,2026-03-31T17:37:24Z,jbrockmendel,1
+4180214432,64948,TST: add test for mixed-freq Period setops in object-dtype Index,merged,closed,2026-03-31T15:32:36Z,2026-03-31T22:45:59Z,2026-03-31T22:29:14Z,jbrockmendel,1
+4180209782,64947,TST: add regression test for Index.get_indexer_for with mixed tuples,merged,closed,2026-03-31T15:31:55Z,2026-03-31T22:45:44Z,2026-03-31T22:30:16Z,jbrockmendel,1
+4180206719,64946,REGR: fix plotting DataFrame with descending DatetimeIndex,merged,closed,2026-03-31T15:31:28Z,2026-03-31T17:27:22Z,2026-03-31T17:26:23Z,jbrockmendel,1
+4179333369,64944,CI: bump setup-micromamba to 3.0.0,merged,closed,2026-03-31T13:43:11Z,2026-04-01T07:19:07Z,2026-03-31T16:23:06Z,jorisvandenbossche,1
+4178546049,64943,REF: Update dedup_names TODO comment in python parser (GH#50371),merged,closed,2026-03-31T11:56:38Z,2026-04-01T18:58:25Z,2026-04-01T15:08:52Z,DeeptimaanB,7
+4177707523,64942,DOC: start 3.0.3 whatsnew notes,merged,closed,2026-03-31T09:49:14Z,2026-04-01T07:16:38Z,2026-03-31T17:22:14Z,jorisvandenbossche,3
+4174137428,64936,"BUG: hexbin plot now respects rcParams[""image.cmap""]",merged,closed,2026-03-30T21:17:23Z,2026-04-01T16:33:36Z,2026-04-01T15:49:43Z,jbrockmendel,1
+4173886873,64935,TST: remove dead-code xfails in test_append_common,merged,closed,2026-03-30T20:30:41Z,2026-03-31T01:06:37Z,2026-03-31T00:24:29Z,jbrockmendel,1
+4173444216,64934,RLS: 3.0.2 (#64930),merged,closed,2026-03-30T19:20:40Z,2026-03-30T19:25:42Z,2026-03-30T19:25:38Z,jorisvandenbossche,0
+4172802300,64932,Backport PR #64931 on branch 3.0.x (DOC/BLD: temporary disable upload of docs to get artifact),merged,closed,2026-03-30T17:46:15Z,2026-03-30T19:09:31Z,2026-03-30T19:09:30Z,meeseeksmachine,0
+4172406304,64931,DOC/BLD: temporary disable upload of docs to get artifact,merged,closed,2026-03-30T16:56:47Z,2026-03-30T17:46:12Z,2026-03-30T17:46:08Z,jorisvandenbossche,1
+4172378261,64930,RLS: 3.0.2,merged,closed,2026-03-30T16:53:30Z,2026-03-30T19:20:49Z,2026-03-30T19:08:21Z,jorisvandenbossche,2
+4172088092,64929,TST: make test assertions stricter,merged,closed,2026-03-30T16:17:43Z,2026-03-30T20:00:15Z,2026-03-30T19:27:49Z,jbrockmendel,1
+4171458079,64928,Backport PR #64664 on branch 3.0.x (BUG: DataFrame.sum() crashes on empty DataFrame with string + numeric columns),merged,closed,2026-03-30T14:55:20Z,2026-03-30T17:22:39Z,2026-03-30T17:22:39Z,meeseeksmachine,0
+4170849335,64927,[backport 3.0.x] PERF: fix slow python loop in validation for ArrowStringArray setitem value (_maybe_convert_setitem_value) (#64530),merged,closed,2026-03-30T13:42:23Z,2026-03-30T14:43:04Z,2026-03-30T14:42:56Z,jorisvandenbossche,0
+4170821413,64926,Backport PR #64133 on branch 3.0.x (BUG: str.find returns byte offset instead of character offset with str dtype),merged,closed,2026-03-30T13:38:17Z,2026-03-30T14:39:33Z,2026-03-30T14:39:32Z,meeseeksmachine,0
+4170251010,64925,Pixi: use build dir based on env name for build-pandas task,merged,closed,2026-03-30T12:14:59Z,2026-04-10T17:27:33Z,2026-04-09T15:18:02Z,jorisvandenbossche,5
+4169381676,64924,DOC: move some whatsnew items from 3.1.0 to 3.0.2,merged,closed,2026-03-30T10:03:51Z,2026-03-30T19:24:43Z,2026-03-30T19:24:39Z,jorisvandenbossche,0
+4169336170,64923,[backport 3.0.x] BUG: fix convert_dtypes dropping values from sliced mixed-dtype DataFrames (#64712),merged,closed,2026-03-30T09:57:01Z,2026-03-30T11:22:52Z,2026-03-30T11:22:48Z,jorisvandenbossche,0
+4169283824,64922,[backport 3.0.x] BUG: Fix HDFStore.put with StringDtype columns and compression (#64180) (#64569),merged,closed,2026-03-30T09:49:27Z,2026-03-30T11:12:14Z,2026-03-30T11:12:10Z,jorisvandenbossche,0
+4169103806,64921,[backport 3.0.x] BUG: Suppress unnecessary RuntimeWarning in to_datetime with missing componentsFix runtime warning (#64292),merged,closed,2026-03-30T09:25:28Z,2026-03-30T11:11:26Z,2026-03-30T11:11:21Z,jorisvandenbossche,0
+4168652051,64920,Bump github/codeql-action from 4.34.1 to 4.35.1,merged,closed,2026-03-30T08:25:31Z,2026-03-30T15:14:27Z,2026-03-30T15:14:24Z,dependabot[bot],0
+4168649287,64919,Bump codecov/codecov-action from 5.5.3 to 6.0.0,merged,closed,2026-03-30T08:25:10Z,2026-03-30T15:11:35Z,2026-03-30T13:45:50Z,dependabot[bot],0
+4168648678,64918,Bump mamba-org/setup-micromamba from 2.0.7 to 3.0.0,merged,closed,2026-03-30T08:25:05Z,2026-03-31T13:40:59Z,2026-03-30T13:44:11Z,dependabot[bot],2
+4165722796,64916,TST: add tests for mixed-resolution datetime64 in object Index,merged,closed,2026-03-29T20:27:17Z,2026-04-01T01:21:43Z,2026-04-01T00:24:10Z,jbrockmendel,1
+4161704801,64913,"DOC: ""RadViz allow project"" -> ""RadViz allows you to project""",merged,closed,2026-03-28T21:24:39Z,2026-03-29T17:42:29Z,2026-03-29T16:11:15Z,star1327p,1
+4161174091,64912,REV: revert #64689 MultiIndex.loc datetime64-to-date conversion,merged,closed,2026-03-28T18:12:58Z,2026-03-29T20:11:07Z,2026-03-29T17:56:40Z,jbrockmendel,1
+4161150760,64909,CI: Replace deprecated actions/gh-actions-cache with gh cache delete command,merged,closed,2026-03-28T18:07:56Z,2026-03-31T17:23:50Z,2026-03-31T17:23:46Z,mroeschke,1
+4156898802,64903,TST: remove stale strict=False xfails,merged,closed,2026-03-28T01:45:15Z,2026-03-28T18:42:35Z,2026-03-28T18:27:56Z,jbrockmendel,1
+4156347245,64902,TST: Skip (AM/PM) parsing tests on non en_US locales,merged,closed,2026-03-27T22:52:26Z,2026-04-16T19:27:37Z,2026-04-16T17:59:20Z,jbrockmendel,1
+4155077026,64901,TST: remove stale strict=False xfails,merged,closed,2026-03-27T18:38:03Z,2026-03-28T00:27:13Z,2026-03-28T00:01:47Z,jbrockmendel,1
+4154994944,64900,DOC: Clarify that weekly anchor day is the end of the period,merged,closed,2026-03-27T18:24:08Z,2026-03-28T00:26:36Z,2026-03-28T00:04:03Z,jbrockmendel,1
+4154982893,64898,DOC: Clarify BusinessDay offset parameter docstring,merged,closed,2026-03-27T18:22:08Z,2026-03-28T00:26:47Z,2026-03-28T00:02:56Z,jbrockmendel,1
+4154977925,64897,"DOC: Clarify interaction between format, unit, and origin in to_datetime",merged,closed,2026-03-27T18:21:22Z,2026-03-28T00:26:24Z,2026-03-28T00:06:23Z,jbrockmendel,1
+4154956394,64896,BUG: Fix KeyError in DataFrame.to_stata with convert_dates and invalid column names,merged,closed,2026-03-27T18:18:00Z,2026-03-29T20:10:49Z,2026-03-29T18:01:25Z,jbrockmendel,3
+4154542703,64895,CI: Add pixi.lock update workflow,merged,closed,2026-03-27T17:12:34Z,2026-03-27T19:59:55Z,2026-03-27T19:59:42Z,mroeschke,0
+4153893700,64892,Backport PR #64886: BUG: Compute Variance of Complex Numbers Correctly,merged,closed,2026-03-27T15:54:51Z,2026-03-27T18:19:23Z,2026-03-27T18:19:23Z,Alvaro-Kothe,0
+4153764634,64891,BLD: reduce meson lower bound in build-system requires as well,merged,closed,2026-03-27T15:36:21Z,2026-03-27T18:47:14Z,2026-03-27T17:16:09Z,jorisvandenbossche,1
+4147658671,64887,CI: Use pixi.lock during Pixi environment creation,merged,closed,2026-03-26T22:11:30Z,2026-03-27T17:17:25Z,2026-03-27T16:12:11Z,mroeschke,3
+4147651559,64886,BUG: Compute Variance of Complex Numbers Correctly,merged,closed,2026-03-26T22:09:48Z,2026-03-27T18:19:36Z,2026-03-26T22:58:27Z,Alvaro-Kothe,7
+4145682414,64882,Backport PR #64386 on branch 3.0.x (BUG: fix sort_index AssertionError with RangeIndex and level parameter),merged,closed,2026-03-26T16:51:40Z,2026-03-26T18:54:33Z,2026-03-26T18:54:33Z,meeseeksmachine,0
+4145337459,64881,BUG: fix HDFStore.select scope resolution with list-of-conditions on Python 3.12+,merged,closed,2026-03-26T16:08:25Z,2026-03-30T15:29:30Z,2026-03-30T15:21:46Z,jbrockmendel,1
+4145251497,64880,BUG: regression in bdate_range for end on weekend,merged,closed,2026-03-26T15:57:05Z,2026-04-24T08:36:48Z,2026-04-03T23:49:07Z,An1k4et,2
+4139905938,64874,CI: re-enable werror on Windows and MacOS Unit Tests,merged,closed,2026-03-26T02:15:15Z,2026-03-26T16:28:45Z,2026-03-26T16:28:37Z,Alvaro-Kothe,1
+4139711976,64871,DEPR: deprecate dates-with-datetime64 in _maybe_downcast_for_indexing,merged,closed,2026-03-26T01:30:02Z,2026-04-10T17:25:13Z,2026-04-10T16:17:05Z,jbrockmendel,2
+4139557040,64869,TST: narrow xfail in test_categorical_dtype_single for pyarrow,merged,closed,2026-03-26T00:54:24Z,2026-03-26T18:02:39Z,2026-03-26T18:00:11Z,jbrockmendel,1
+4139465773,64863,PERF: optimize DataFrame.__repr__ formatting,merged,closed,2026-03-26T00:27:11Z,2026-05-03T14:06:31Z,2026-05-03T13:24:10Z,jbrockmendel,4
+4139461951,64862,TST: remove stale xfails in groupby value_counts tests,merged,closed,2026-03-26T00:26:08Z,2026-03-26T18:02:58Z,2026-03-26T18:02:26Z,jbrockmendel,1
+4139450442,64861,CI: Reduce meson lower boundin pixi to 1.2.3,merged,closed,2026-03-26T00:22:50Z,2026-03-26T17:44:39Z,2026-03-26T17:44:36Z,mroeschke,2
+4139447484,64860,TST: use approximate comparison for pairwise rolling corr on 32-bit,merged,closed,2026-03-26T00:21:43Z,2026-03-26T18:04:22Z,2026-03-26T18:03:28Z,jbrockmendel,1
+4139447378,64859,TST: remove np.sum xfails from rolling/expanding consistency tests,merged,closed,2026-03-26T00:21:40Z,2026-03-27T15:55:20Z,2026-03-27T15:53:40Z,jbrockmendel,1
+4139444181,64858,TST: remove/fix stale xfails,merged,closed,2026-03-26T00:20:37Z,2026-03-27T15:59:35Z,2026-03-27T15:58:36Z,jbrockmendel,1
+4139437031,64857,"DEPR: Deprecate weekday property on DatetimeIndex, PeriodIndex, Period",merged,closed,2026-03-26T00:18:22Z,2026-03-29T20:11:27Z,2026-03-29T18:06:09Z,jbrockmendel,1
+4139419674,64856,BUG: fix RecursionError in fillna with dict and duplicate MultiIndex columns,merged,closed,2026-03-26T00:13:31Z,2026-03-27T16:01:46Z,2026-03-27T16:00:18Z,jbrockmendel,1
+4139402720,64854,TST: add tests for NaN/NA issues resolved by distinguish_nan_and_na,merged,closed,2026-03-26T00:09:13Z,2026-03-29T20:11:48Z,2026-03-29T18:07:59Z,jbrockmendel,1
+4139397894,64853,BUG: fix BusinessHour subtraction landing on opening time,merged,closed,2026-03-26T00:08:03Z,2026-04-02T16:51:35Z,2026-04-02T16:49:10Z,jbrockmendel,1
+4139375825,64852,BUG: fix DataFrame.__getitem__ with slice in tuple on MultiIndex columns,merged,closed,2026-03-26T00:01:15Z,2026-04-06T16:53:11Z,2026-04-06T16:52:40Z,jbrockmendel,1
+4139369624,64850,"DOC: note that replace() uses equality, not identity",merged,closed,2026-03-25T23:59:15Z,2026-03-26T18:05:27Z,2026-03-26T17:43:03Z,jbrockmendel,1
+4139276000,64849,BUG: permit building from source with mingw,merged,closed,2026-03-25T23:35:31Z,2026-04-21T17:32:27Z,2026-04-21T17:32:20Z,Alvaro-Kothe,1
+4138574810,64846,"Revert ""BUG: distinguish bool from int in object-dtype hash table""",merged,closed,2026-03-25T21:13:07Z,2026-03-26T00:38:23Z,2026-03-26T00:37:40Z,jbrockmendel,2
+4138440118,64845,DOC: Add BigQuery DataFrames (bigframes) to ecosystem docs,merged,closed,2026-03-25T20:50:23Z,2026-03-26T14:07:00Z,2026-03-25T22:12:06Z,tswast,2
+4136519590,64840,TST: remove strict=False from xfail markers,merged,closed,2026-03-25T15:54:33Z,2026-03-26T19:21:47Z,2026-03-26T18:07:20Z,jbrockmendel,1
+4133787862,64837,Backport PR #64235 on branch 3.0.x (BUG: normalize_json no longer supports top-level missing entries),merged,closed,2026-03-25T09:04:11Z,2026-03-25T16:12:34Z,2026-03-25T16:12:34Z,meeseeksmachine,0
+4133026064,64836,BUG: Timedelta.round() raises ZeroDivisionError when internal unit is 's' and target frequency is sub-second,merged,closed,2026-03-25T06:44:53Z,2026-04-16T13:11:03Z,2026-04-10T17:36:03Z,kjmin622,5
+4131264059,64833,Backport PR #64829 on branch 3.0.x (TST: xfail test_no_track_times with HDF5 >= 2),merged,closed,2026-03-24T23:14:39Z,2026-03-25T00:29:14Z,2026-03-25T00:29:14Z,meeseeksmachine,0
+4130885083,64832,CLN: inline and remove maybe_convert_platform,merged,closed,2026-03-24T21:54:41Z,2026-03-25T00:33:40Z,2026-03-25T00:30:03Z,jbrockmendel,1
+4130836067,64831,REF: add ExtensionArray._groupby_quantile method,merged,closed,2026-03-24T21:41:56Z,2026-04-29T21:08:47Z,2026-04-29T21:08:29Z,jbrockmendel,2
+4130822502,64830,BUG: fix iloc setitem with nullable EA dtype Series/Index (#47776),merged,closed,2026-03-24T21:38:24Z,2026-03-25T16:36:29Z,2026-03-25T16:17:49Z,jbrockmendel,1
+4130613905,64829,TST: xfail test_no_track_times with HDF5 >= 2,merged,closed,2026-03-24T20:58:06Z,2026-03-24T23:14:08Z,2026-03-24T22:58:45Z,jbrockmendel,2
+4124691021,64818,BUG: Index.insert silently casts bool to numeric for masked dtypes,merged,closed,2026-03-24T01:44:18Z,2026-03-24T16:23:26Z,2026-03-24T16:22:05Z,jbrockmendel,1
+4124685134,64817,BUG: fix KeyError when looking up tuple in object Index with duplicates,merged,closed,2026-03-24T01:42:10Z,2026-03-25T16:47:06Z,2026-03-25T16:41:33Z,jbrockmendel,1
+4124648216,64816,BUG: fix DataFrame.where/mask with Series cond and axis=1,merged,closed,2026-03-24T01:27:57Z,2026-03-24T16:44:31Z,2026-03-24T16:36:46Z,jbrockmendel,1
+4124623093,64815,TST: test improved error message for non-monotonic DatetimeIndex slicing,merged,closed,2026-03-24T01:18:34Z,2026-03-24T16:31:08Z,2026-03-24T16:30:42Z,jbrockmendel,1
+4124615222,64814,BUG: honor drop_level=False in DataFrame.xs for fully specified MultiIndex keys,merged,closed,2026-03-24T01:15:30Z,2026-03-25T00:33:26Z,2026-03-25T00:30:30Z,jbrockmendel,1
+4124591525,64813,TST: add test for datetime.timedelta arithmetic resolution (GH#59656),merged,closed,2026-03-24T01:06:52Z,2026-03-24T16:19:37Z,2026-03-24T16:19:14Z,jbrockmendel,0
+4124570831,64812,ERR: clarify error message for multi-char separators with pyarrow engine,merged,closed,2026-03-24T00:58:54Z,2026-03-24T16:30:35Z,2026-03-24T16:29:43Z,jbrockmendel,1
+4123930348,64811,PERF: fast path for partial-string indexing on monotonic decreasing DTI,merged,closed,2026-03-23T21:52:58Z,2026-03-24T16:58:09Z,2026-03-24T16:56:51Z,jbrockmendel,1
+4123892656,64809,BUG: fix dt64[non_nano] + offsets with sub-unit offset parameter,merged,closed,2026-03-23T21:44:05Z,2026-03-25T17:55:51Z,2026-03-25T17:53:29Z,jbrockmendel,1
+4123875627,64807,PERF: Vectorize MultiIndex.get_locs for list-like keys,merged,closed,2026-03-23T21:39:20Z,2026-03-25T17:55:35Z,2026-03-25T17:54:47Z,jbrockmendel,1
+4123864633,64806,BUG: fix DatetimeIndex + DateOffset near DST transitions,merged,closed,2026-03-23T21:36:16Z,2026-03-25T16:37:24Z,2026-03-25T16:32:10Z,jbrockmendel,1
+4123853034,64804,BUG: fix is_subperiod/is_superperiod identity for M/Q/Y frequencies,merged,closed,2026-03-23T21:32:57Z,2026-04-02T17:22:06Z,2026-04-02T17:18:17Z,jbrockmendel,1
+4123846259,64802,ENH: Support axis parameter in masked array reductions for 2D arrays,merged,closed,2026-03-23T21:30:57Z,2026-04-14T17:47:04Z,2026-04-14T17:33:13Z,jbrockmendel,1
+4123836623,64801,ENH: use _cast_pointwise_result in ExtensionArray.map,merged,closed,2026-03-23T21:28:14Z,2026-04-16T16:24:20Z,2026-04-16T16:17:28Z,jbrockmendel,1
+4123714058,64798,BUG: reject unhashable elements in Index constructor,merged,closed,2026-03-23T21:01:38Z,2026-05-21T19:22:14Z,2026-04-25T13:48:21Z,jbrockmendel,5
+4123710808,64797,"BUG: exclude RangeIndex from _can_use_libjoin, fix _union sorting",merged,closed,2026-03-23T21:01:03Z,2026-04-03T22:15:50Z,2026-04-03T22:14:54Z,jbrockmendel,1
+4123708614,64796,BUG: Index.get_indexer with method and NaT/NaN target returns -1,merged,closed,2026-03-23T21:00:36Z,2026-04-02T16:57:39Z,2026-04-02T16:56:35Z,jbrockmendel,1
+4123703389,64794,PERF: speed up lexsort_indexer for numeric dtypes,merged,closed,2026-03-23T20:59:39Z,2026-04-02T17:10:34Z,2026-04-02T17:09:50Z,jbrockmendel,1
+4123699992,64792,"BUG: .loc with (scalar, list) on MultiIndex not dropping scalar level",merged,closed,2026-03-23T20:59:02Z,2026-04-04T18:41:36Z,2026-04-04T18:40:28Z,jbrockmendel,1
+4123698211,64791,BUG: Fix float16 overflow in nanmean/nansum by upcasting to float64,merged,closed,2026-03-23T20:58:43Z,2026-03-24T16:52:45Z,2026-03-24T16:45:32Z,jbrockmendel,1
+4123691185,64790,BUG: date_range excludes last offset boundary when end time < start time,merged,closed,2026-03-23T20:57:31Z,2026-03-29T20:12:10Z,2026-03-29T18:12:10Z,jbrockmendel,1
+4123680061,64789,BUG: groupby with Grouper(freq=...) raises when all keys are NaT,merged,closed,2026-03-23T20:55:35Z,2026-04-01T18:47:49Z,2026-04-01T18:27:59Z,jbrockmendel,1
+4123658232,64788,BUG: fix date_range inclusive filtering with periods,merged,closed,2026-03-23T20:52:03Z,2026-03-25T21:09:40Z,2026-03-25T19:59:00Z,jbrockmendel,1
+4123640007,64787,"PERF: reduce overhead in __finalize__, to_numpy, __getitem__, and dtypes",merged,closed,2026-03-23T20:49:02Z,2026-03-24T16:52:21Z,2026-03-24T16:48:54Z,jbrockmendel,1
+4123637760,64786,PERF: use searchsorted in IntervalIndex.get_indexer for monotonic indexes,merged,closed,2026-03-23T20:48:41Z,2026-04-04T18:13:22Z,2026-04-04T16:52:32Z,jbrockmendel,2
+4123635315,64785,PERF: avoid boxing in Term.type for PeriodArray/IntervalArray,merged,closed,2026-03-23T20:48:18Z,2026-03-24T16:52:34Z,2026-03-24T16:46:59Z,jbrockmendel,1
+4119117820,64782,Bump github/codeql-action from 4.32.6 to 4.34.1,merged,closed,2026-03-23T08:23:35Z,2026-03-23T16:58:20Z,2026-03-23T16:58:19Z,dependabot[bot],0
+4119115732,64781,Bump codecov/codecov-action from 5.5.2 to 5.5.3,merged,closed,2026-03-23T08:23:14Z,2026-03-23T16:58:02Z,2026-03-23T16:58:01Z,dependabot[bot],0
+4117004492,64776,CLN: Simplify wheel GHA,merged,closed,2026-03-22T20:15:50Z,2026-03-29T18:18:22Z,2026-03-29T18:18:19Z,mroeschke,1
+4116928950,64775,CI: Simplify cibuildwheel testing configs in pyproject.toml,merged,closed,2026-03-22T19:42:55Z,2026-03-26T19:01:58Z,2026-03-26T19:01:55Z,mroeschke,1
+4116923249,64774,CLN: Add more well known labels to project.urls,merged,closed,2026-03-22T19:40:43Z,2026-03-23T22:46:42Z,2026-03-23T22:11:40Z,mroeschke,1
+4115734097,64772,Fix doubled words and grammar errors in comments and docs,merged,closed,2026-03-22T11:23:49Z,2026-03-22T18:29:14Z,2026-03-22T14:20:21Z,yangsong97,1
+4510614392,65717,CI: Update pixi.lock,unmerged,open,2026-05-24T05:34:32Z,2026-05-24T05:34:33Z,,github-actions[bot],0
+4509383431,65715,DOC: fix incorrect alignment description in where/mask docstrings,unmerged,open,2026-05-23T19:32:56Z,2026-05-23T19:32:56Z,,RonGamzu,0
+4509357432,65714,BUG: raise on melt output-name collisions for var_name (#65654),unmerged,open,2026-05-23T19:21:35Z,2026-05-23T19:21:35Z,,Sanjays2402,0
+4507760666,65713,BUG: handle chained Path division with Arrow strings,unmerged,open,2026-05-23T10:19:50Z,2026-05-23T10:19:50Z,,puneetdixit200,0
+4503414763,65711,BUG: fix DataFrame.any/all(skipna=False) raising on nullable dtypes,unmerged,open,2026-05-22T14:33:12Z,2026-05-22T18:55:10Z,,gautamvarmadatla,1
+4503078126,65709,BUG: keep groupby apply return type consistent,unmerged,open,2026-05-22T13:41:57Z,2026-05-22T15:25:27Z,,Will-thom,0
+4503066176,65708,BUG: Use Windows intsafe only for MSVC,unmerged,open,2026-05-22T13:40:08Z,2026-05-23T04:09:55Z,,dragon-archer,2
+4502513013,65707,BUG: support callable EWM aggregations,unmerged,open,2026-05-22T12:15:03Z,2026-05-22T12:15:03Z,,Will-thom,0
+4502264975,65706,DOC: clarify interpolate kwargs,unmerged,open,2026-05-22T11:33:10Z,2026-05-22T11:33:10Z,,Will-thom,0
+4501086007,65705,BUG/API: restore usage of DST transition rules up to 2262,unmerged,open,2026-05-22T08:19:38Z,2026-05-22T12:06:43Z,,jorisvandenbossche,0
+4499509820,65704,BUG: raise on melt output column collisions,unmerged,open,2026-05-22T03:10:19Z,2026-05-22T03:10:19Z,,Will-thom,0
+4499466698,65703,TST: cover unstack default sort behavior,unmerged,open,2026-05-22T02:59:06Z,2026-05-22T02:59:06Z,,Will-thom,0
+4499168515,65702,BUG: raise consistent error for BooleanArray logical ops with dtype-less sequences (#63095),unmerged,open,2026-05-22T01:56:28Z,2026-05-22T02:04:19Z,,ATOM00blue,0
+4495835723,65701,BUG: Fix MultiIndex.equals regression regarding code bit-width (#65700),unmerged,open,2026-05-21T15:30:42Z,2026-05-23T18:13:42Z,,anzinmhd,4
+4491486326,65699,TYP: widen duplicated() input type to AnyArrayLike (GH 42604),unmerged,open,2026-05-21T03:28:44Z,2026-05-21T03:28:44Z,,gkneighb,0
+4490027389,65698,PERF: Fix performance regression in DatetimeIndex.equals,unmerged,open,2026-05-20T21:27:22Z,2026-05-21T22:15:44Z,,rhshadrach,1
+4488097765,65696,BUG: ensure from_arrow() methods use same arrow->pandas conversion as other IO methods,unmerged,open,2026-05-20T16:12:14Z,2026-05-20T20:42:25Z,,jorisvandenbossche,0
+4485555722,65692,BUG: fix Index.str.findall regression with list results,unmerged,open,2026-05-20T10:37:20Z,2026-05-20T10:37:20Z,,Manav-Vaddoriya,0
+4483216117,65691,TST: PoC for CoW inplace validation utility (GH #65676),unmerged,open,2026-05-20T04:44:40Z,2026-05-22T09:26:26Z,,GiTaDi-CrEaTe,5
+4482101011,65688,ASV: Run inplace fillna once per setup,unmerged,open,2026-05-20T00:26:12Z,2026-05-20T20:45:58Z,,rhshadrach,1
+4474085578,65683,DEPR: deprecate inplace keyword in the DataFrame.drop() method,unmerged,open,2026-05-19T03:06:08Z,2026-05-20T07:48:28Z,,tamhahn,2
+4473475601,65682,BUG(pandas 3.0 regression): drop(index=...) doesn't accept NA values when using arrow dtype in index,unmerged,open,2026-05-19T00:20:41Z,2026-05-20T03:56:57Z,,kjmin622,0
+4468633949,65679,Fix case preservation for excel number formats,unmerged,open,2026-05-18T11:18:42Z,2026-05-18T18:55:02Z,,mrinalcodez,1
+4467742387,65678,DOC: Rewrite BYearEnd docstring with See Also and examples,unmerged,open,2026-05-18T09:03:17Z,2026-05-18T09:56:02Z,,Fahad-Hafeez,2
+4466858832,65677,BUG: support for operations with custom objects / object dtype,unmerged,open,2026-05-18T06:42:32Z,2026-05-20T04:41:57Z,,kjmin622,1
+4466278908,65675,BUG: Fix CoW alias corruption in DataFrame.eval (#65664),unmerged,open,2026-05-18T04:32:19Z,2026-05-22T09:01:52Z,,GiTaDi-CrEaTe,12
+4465633573,65674,CLN: Fix missing blank in error message in astype.py,unmerged,open,2026-05-18T01:26:40Z,2026-05-18T21:00:32Z,,jorgeperezg,0
+4462129776,65667,Support for mypy 2.1.0 and pyright 1.1.409,unmerged,open,2026-05-17T03:19:39Z,2026-05-23T20:07:28Z,,Dr-Irv,0
+4461070579,65661,TST: Speed up test_read_excel_skiprows_callable_all,unmerged,open,2026-05-16T19:42:18Z,2026-05-16T22:12:26Z,,mroeschke,0
+4460834129,65660,CI: Run zizmorcore/zizmor-action for security issues,unmerged,open,2026-05-16T18:01:52Z,2026-05-16T18:58:38Z,,mroeschke,1
+4460616337,65659,DOC: Split of describe docstrings between Series / Dataframe,unmerged,open,2026-05-16T16:44:49Z,2026-05-19T22:33:37Z,,rhshadrach,1
+4458667415,65656,BUG: DataFrame.eval inconsistently handles duplicated columns,unmerged,open,2026-05-16T05:12:52Z,2026-05-16T05:12:52Z,,kjmin622,0
+4457701648,65655,BUG: fix silent DataFrame.melt corruption on var_name collisions,unmerged,open,2026-05-15T23:59:58Z,2026-05-16T00:01:08Z,,gautamvarmadatla,0
+4452969292,65647,TST: Add test for writing UUIDs to parquet with pyarrow #61602,unmerged,open,2026-05-15T09:51:21Z,2026-05-18T11:56:10Z,,GiTaDi-CrEaTe,13
+4452719957,65646,DOC: fix iloc column swap example in indexing guide (bounty #65446),unmerged,open,2026-05-15T09:11:22Z,2026-05-15T09:11:22Z,,bomlinux92-byte,0
+4452357385,65645,DOC: document column attrs with Copy-on-Write,unmerged,open,2026-05-15T08:09:51Z,2026-05-16T15:24:30Z,,MukundaKatta,0
+4448761109,65644,Feature/groupby 62414,unmerged,open,2026-05-14T19:41:17Z,2026-05-14T19:42:39Z,,richacode007-byte,0
+4447894930,65635,DOC: add Interval scalar walkthrough to user guide,unmerged,open,2026-05-14T17:21:57Z,2026-05-14T17:21:57Z,,jbrockmendel,0
+4441787580,65632,PERF: Cythonize kendall correlation,unmerged,open,2026-05-13T23:13:09Z,2026-05-13T23:20:48Z,,Alvaro-Kothe,0
+4427485394,65615,BUG: Fixes #62775 - DataFrame.from_dict() drops empty rows with orient='index',unmerged,open,2026-05-12T08:24:21Z,2026-05-21T02:43:16Z,,J281417,6
+4424282371,65607,PERF: speed up HDF5 read/append/select_as_multiple,unmerged,open,2026-05-11T21:03:14Z,2026-05-21T22:32:41Z,,jbrockmendel,0
+4424047847,65606,BUG: HDF5 pandas_version attr now reflects actual pandas version (GH-62792),unmerged,open,2026-05-11T20:26:44Z,2026-05-12T00:50:48Z,,jbrockmendel,0
+4423938921,65604,"BUG: bdate_range(end, periods, freq=nB) anchors stride at buffer start",unmerged,open,2026-05-11T20:09:00Z,2026-05-12T09:20:09Z,,jbrockmendel,1
+4423920605,65603,BUG: read_hdf converting literal 'nan' string in Index to NaN (GH-9604),unmerged,open,2026-05-11T20:06:13Z,2026-05-18T17:28:03Z,,jbrockmendel,0
+4423916589,65602,BUG: clearer HDFStore error for min_itemsize on MultiIndex columns (GH-12154),unmerged,open,2026-05-11T20:05:37Z,2026-05-12T00:50:53Z,,jbrockmendel,0
+4423913257,65601,BUG: RangeIndex.nbytes/memory_usage raised TypeError on PyPy (GH-46176),unmerged,open,2026-05-11T20:05:08Z,2026-05-12T00:50:55Z,,jbrockmendel,0
+4423891764,65597,PERF: bypass factorize in axis=1 EA reduction fastpath (GH-56903),unmerged,open,2026-05-11T20:01:45Z,2026-05-12T00:51:02Z,,jbrockmendel,0
+4423826503,65595,DOC: warn on silent HDFStore no-op for empty frames (GH-13016),unmerged,open,2026-05-11T19:50:47Z,2026-05-12T00:51:06Z,,jbrockmendel,0
+4422909373,65593,TST: regression test for DataFrame arith with NaN-containing MultiIndex and fill_value (GH-30857),unmerged,open,2026-05-11T17:30:59Z,2026-05-12T00:51:10Z,,jbrockmendel,0
+4421131409,65587,BUG: validate to_offset aliases before stride parsing,unmerged,open,2026-05-11T13:16:37Z,2026-05-21T16:12:00Z,,sun-0-set,1
+4417434658,65583,Richacode007 byte/feature/deprecate groupby sort 62414,unmerged,open,2026-05-11T01:19:13Z,2026-05-11T20:43:00Z,,richacode007-byte,3
+4416885917,65581,Add blosc dependency version 1.21.3,unmerged,open,2026-05-10T21:25:56Z,2026-05-11T20:38:50Z,,Pranav970,2
+4416874825,65580,Add blosc dependency version 1.21.3,unmerged,open,2026-05-10T21:20:55Z,2026-05-10T21:20:56Z,,Pranav970,0
+4416459451,65577,"BUG: fix to_hdf with DateOffset freq, read_hdf with legacy freq bytes",unmerged,open,2026-05-10T18:29:53Z,2026-05-17T02:30:35Z,,jbrockmendel,0
+4416455249,65576,BUG: Round-trip CategoricalIndex through HDF5,unmerged,open,2026-05-10T18:28:02Z,2026-05-17T02:30:27Z,,jbrockmendel,0
+4416267667,65574,DOC: Add missing 'Ticket' column to tutorial,unmerged,open,2026-05-10T17:09:41Z,2026-05-10T18:21:55Z,,simon159736842v,0
+4416154664,65573,DOC: clarify duplicated keep behavior,unmerged,open,2026-05-10T16:23:10Z,2026-05-10T16:23:10Z,,mitre88,0
+4415564658,65572,PERF: avoid ndarray[object] intermediate when constructing pyarrow string Series (GH-64429),unmerged,open,2026-05-10T12:08:54Z,2026-05-11T17:46:38Z,,oskarseweryn,4
+4415563074,65571,TST: regression test for read_parquet with first batch all-None (GH-55731),unmerged,open,2026-05-10T12:08:07Z,2026-05-11T11:23:22Z,,oskarseweryn,2
+4414779615,65570,BUG: ensure pyarrow timestamp index creates DatetimeIndex,unmerged,open,2026-05-10T05:43:01Z,2026-05-11T17:50:14Z,,praneethhere,0
+4413848254,65564,DOC: fill gaps in HDFStore documentation,unmerged,open,2026-05-09T21:11:42Z,2026-05-12T01:54:36Z,,jbrockmendel,0
+4412814321,65559,DOC: Quote identifiers in psql_insert_copy user-guide example (#53942),unmerged,open,2026-05-09T14:40:11Z,2026-05-09T14:40:11Z,,jbbqqf,0
+4412810816,65558,DOC: Document Timestamp.timestamp() in 'From timestamps to epoch' user guide (#56343),unmerged,open,2026-05-09T14:38:33Z,2026-05-09T14:38:33Z,,jbbqqf,0
+4412807618,65557,DOC: Clarify meta_prefix and record_prefix in json_normalize (#54121),unmerged,open,2026-05-09T14:37:09Z,2026-05-11T20:58:11Z,,jbbqqf,0
+4409601045,65536,DOC: note pyarrow uint32 round-trip requires parquet version>=2.4 (GH-37327),unmerged,open,2026-05-08T21:48:09Z,2026-05-08T21:48:09Z,,jbrockmendel,0
+4409489950,65529,BUG: to_datetime origin path silently ignored errors='coerce' (GH-63419),unmerged,open,2026-05-08T21:25:04Z,2026-05-13T18:16:00Z,,jbrockmendel,0
+4408434796,65528,DOC: clarify that DataFrame does not collect attrs from columns (GH-35425),unmerged,open,2026-05-08T18:11:45Z,2026-05-08T18:42:23Z,,jbrockmendel,0
+4407747851,65526,BUG: DataFrame.max/min axis=1 returning NaT on multi-block dt64tz frames (GH-65500),unmerged,open,2026-05-08T16:11:58Z,2026-05-12T00:51:21Z,,jbrockmendel,0
+4405229975,65523,PERF: skip redundant `take()` copies in `_Unstacker.sorted_labels` when indexer is identity,unmerged,open,2026-05-08T09:14:06Z,2026-05-08T14:18:25Z,,eendebakpt,0
+4404087907,65521,BUG: respect skipna=False in SparseArray.mean,unmerged,open,2026-05-08T05:47:40Z,2026-05-08T16:35:38Z,,charliesheh,1
+4402892203,65515,BUG: raise on timedelta64 multiplication / sum overflow (GH-43178),unmerged,open,2026-05-08T00:40:51Z,2026-05-08T14:31:00Z,,jbrockmendel,0
+4402805272,65513,DOC: fix factual errors in development/internals.rst,unmerged,open,2026-05-08T00:18:44Z,2026-05-08T17:31:57Z,,jbrockmendel,2
+4402776080,65511,DOC: document elementwise & | ^ operators on Index (GH-42384),unmerged,open,2026-05-08T00:11:30Z,2026-05-08T17:58:53Z,,jbrockmendel,0
+4402191615,65510,BUG: MaskedArray.__setitem__ list-like validation,unmerged,open,2026-05-07T21:38:50Z,2026-05-16T16:06:55Z,,jbrockmendel,0
+4402143097,65507,ENH: add default ExtensionArray.round (closes #49387),unmerged,open,2026-05-07T21:27:35Z,2026-05-18T17:27:45Z,,jbrockmendel,0
+4400368353,65502,PERF: speed up nanops pearson correlation,unmerged,open,2026-05-07T16:33:29Z,2026-05-22T08:43:12Z,,datasanta,1
+4395118344,65494,BUG: Add skipna argument to SparseArray.mean,unmerged,open,2026-05-06T23:35:18Z,2026-05-16T23:35:54Z,,rexmhall09,1
+4391543712,65488,Skipna issue,unmerged,open,2026-05-06T13:02:33Z,2026-05-21T09:25:12Z,,Manav-Vaddoriya,9
+4388688418,65479,Cache BlockManager.get_dtypes result for repeated calls,unmerged,open,2026-05-06T04:15:56Z,2026-05-08T20:23:02Z,,ssam18,1
+4387303438,65475,TST: replace 5GB commented-out test_string_column_above_2GB (GH-55606),unmerged,open,2026-05-05T21:45:47Z,2026-05-07T20:23:29Z,,jbrockmendel,0
+4386323687,65473,BUG: DateOffset arithmetic not supported for date32[pyarrow] (GH#57168),unmerged,open,2026-05-05T18:40:16Z,2026-05-20T19:27:04Z,,berasaikat,0
+4385134285,65471,BLD: Add xsimd Dependency and SIMD detection,unmerged,open,2026-05-05T15:11:14Z,2026-05-20T08:12:12Z,,Alvaro-Kothe,11
+4382550374,65468,REF: Guard ujson refactors against string buffer copy during heap promotion,unmerged,open,2026-05-05T08:11:21Z,2026-05-12T18:50:15Z,,orbisai0security,6
+4382365402,65467,DOC: Clarify aliasing and alignment fallback in .iloc assignment,unmerged,open,2026-05-05T07:35:14Z,2026-05-06T02:32:14Z,,guci-toma,0
+4374054846,65457,BUG: Ensure consistent index naming when merging with empty DataFrames,unmerged,open,2026-05-04T04:43:16Z,2026-05-16T06:36:51Z,,mapanahi,1
+4371034075,65448,DOC: Fix iloc assignment example to avoid label alignment confusion,unmerged,open,2026-05-03T06:10:40Z,2026-05-03T14:46:29Z,,Manav-Vaddoriya,0
+4367415401,65444,PERF: speed up read_sas for compressed SAS7BDAT files,unmerged,open,2026-05-02T01:18:34Z,2026-05-03T14:56:26Z,,jbrockmendel,0
+4364987696,65443,BUG: Index.str.split/rsplit/findall return ndarray on object path,unmerged,open,2026-05-01T14:54:20Z,2026-05-05T19:04:37Z,,jbrockmendel,0
+4364302423,65442,BUG: Index.get_indexer matches pd.NA against NaN for list input but not ndarray input #65419,unmerged,open,2026-05-01T12:11:39Z,2026-05-05T08:12:59Z,,sayantancodex,1
+4357503704,65428,ENH: improve to_offset error message for deprecated uppercase aliases,unmerged,open,2026-04-30T10:55:57Z,2026-05-21T14:33:21Z,,sun-0-set,9
+4353679882,65420,BUG: merge with NaN-labeled join key produced duplicate columns,unmerged,open,2026-04-29T21:07:48Z,2026-05-09T00:15:22Z,,jbrockmendel,0
+4351889181,65414,DOC: clarify indexing behavior regarding .loc and .iloc,unmerged,open,2026-04-29T15:51:59Z,2026-05-06T21:10:56Z,,hbd9577,0
+4350929791,65412,DOC: improve Series.map examples,unmerged,open,2026-04-29T13:31:36Z,2026-05-06T21:03:30Z,,rmsmuralidharan,0
+4340273552,65389,BUG: Timedelta.total_seconds drops sub-microsecond nanosecond component,unmerged,open,2026-04-28T02:59:47Z,2026-05-12T00:51:23Z,,jbrockmendel,1
+4340068390,65384,REF: standardize Arrow validation with _validate_scalar/_validate_setitem_value,unmerged,open,2026-04-28T02:08:15Z,2026-05-03T14:53:08Z,,jbrockmendel,0
+4334993937,65378,BUG: nansem with mask + skipna=False + axis returns scalar nan instead of array,unmerged,open,2026-04-27T10:26:43Z,2026-05-11T05:04:35Z,,Abineshabee,6
+4331123064,65372,BUG: Fix Behavior Change from #64366 Regarding NaN Handling With Mask,unmerged,open,2026-04-26T14:38:29Z,2026-04-26T16:20:12Z,,Alvaro-Kothe,0
+4329491574,65368,DOC: Document pyarrow vs python string storage differences (#63105),unmerged,open,2026-04-25T23:23:01Z,2026-05-02T17:06:17Z,,Manjugadupudi,6
+4326825372,65366,"BUG: select_dtypes ExtensionDtype handling (GH#40234, GH#59888)",unmerged,open,2026-04-25T02:58:56Z,2026-05-08T17:43:53Z,,jbrockmendel,3
+4326139791,65365,Fix/to parquet partition cols error,unmerged,open,2026-04-24T23:22:42Z,2026-05-09T22:15:48Z,,mariam851,4
+4325823173,65364,PERF: speed up read_sas string columns,unmerged,open,2026-04-24T22:01:51Z,2026-05-05T23:46:15Z,,jbrockmendel,0
+4325593152,65362,"BUG: fixed inconsistency in the behaviour of DatetimeIndex.is_year_start on the frequency ""BYS"" ",unmerged,open,2026-04-24T21:06:37Z,2026-05-06T20:55:36Z,,harrywzl,1
+4323124888,65358,Improve error message clarity in fillna for invalid value types,unmerged,open,2026-04-24T13:09:40Z,2026-04-24T13:25:40Z,,Prer26,0
+4320685230,65355,BUG: Fix interpolate linear forward for pyarrow dtype,unmerged,open,2026-04-24T05:15:37Z,2026-04-27T12:51:52Z,,mariam851,4
+4319948376,65353,PERF: read_csv parse_dates directly to datetime64 in C parser,unmerged,open,2026-04-24T01:45:28Z,2026-04-24T21:40:56Z,,jbrockmendel,0
+4319176988,65351,Backport PR #63301 on branch 2.3.x (BUG: pydatetime + Timedelta[non-nano] incorrect results),unmerged,open,2026-04-23T22:09:43Z,2026-05-11T10:44:09Z,,ghackebeil,2
+4318834745,65350,PERF: read_csv faster for integer and string columns,unmerged,open,2026-04-23T20:57:29Z,2026-05-05T19:07:35Z,,jbrockmendel,0
+4318633652,65349,BUG: Fix DataFrame.query when column is named inf or Inf (GH#35695),unmerged,open,2026-04-23T20:19:13Z,2026-05-02T18:06:22Z,,tinezivic,0
+4317312272,65347,PERF: faster integer column parsing in read_csv C engine,unmerged,open,2026-04-23T16:09:56Z,2026-05-07T20:54:36Z,,jbrockmendel,1
+4306740280,65329,BUG: Fix deprecation warning stacklevel in option_context (GH#63235),unmerged,open,2026-04-22T04:44:25Z,2026-05-02T18:06:18Z,,tinezivic,1
+4301028964,65317,BUG: preserve IntEnum in DataFrame constructor when dtype=object (GH#59380),unmerged,open,2026-04-21T07:32:42Z,2026-05-22T00:29:53Z,,galsakuri,1
+4299034602,65314,BUG: Fixed DataFrame.resample() generating errors when bin edges fall on DST transitions,unmerged,open,2026-04-20T22:22:46Z,2026-05-22T00:29:56Z,,presidentjacob,2
+4297565771,65311,BUG: Fix DataFrame.at/iat raising ValueError when storing list-like in a single cell,unmerged,open,2026-04-20T17:40:33Z,2026-05-06T18:56:13Z,,tinezivic,0
+4293816425,65307,BUG: fix ArrowExtensionArray constructor raising on np.nan in string sequences,unmerged,open,2026-04-20T07:18:38Z,2026-05-02T18:06:15Z,,tinezivic,0
+4291326220,65298,PERF: short-circuit sentinel scans on integer indexers,unmerged,open,2026-04-19T15:58:16Z,2026-04-24T02:01:49Z,,jbrockmendel,0
+4290504684,65294,BUG: Fix DataFrame.var/std/sem(axis=1) returning object dtype with mixed numeric types,unmerged,open,2026-04-19T09:50:15Z,2026-05-02T18:06:20Z,,tinezivic,0
+4290324875,65293,BUG: Fix bar plot xticks treating index values as axis positions (#55508),unmerged,open,2026-04-19T08:22:45Z,2026-05-02T18:06:24Z,,tinezivic,1
+4290086332,65291,DOC: add docstring with examples to NDFrame.__invert__ (~ operator),unmerged,open,2026-04-19T06:08:32Z,2026-05-10T01:23:03Z,,RudrenduPaul,1
+4289928906,65290,BUG: Fix to_sql passing incorrect index column name,unmerged,open,2026-04-19T04:40:34Z,2026-05-06T21:36:43Z,,tianlangqin,0
+4289695460,65287,BUG: Fix regex inference in ArrowExtensionArray._str_split (GH#58321),unmerged,open,2026-04-19T02:00:24Z,2026-05-02T18:06:29Z,,tinezivic,0
+4289625523,65286,BUG: Categorical.map() sort categories for unordered categoricals (#58153),unmerged,open,2026-04-19T01:10:21Z,2026-05-02T18:06:27Z,,tinezivic,0
+4289513890,65284,PERF: avoid materializing set/list in isin for common dtype cases,unmerged,open,2026-04-18T23:54:24Z,2026-05-19T00:30:46Z,,jbrockmendel,1
+4289310772,65283,PERF: read_csv emits pyarrow-backed string arrays directly from the C parser,unmerged,open,2026-04-18T22:08:58Z,2026-05-05T18:47:00Z,,jbrockmendel,0
+4288874124,65280,PERF: skip Period-object round-trip when plotting PeriodIndex,unmerged,open,2026-04-18T18:45:17Z,2026-05-03T14:59:09Z,,jbrockmendel,0
+4288839304,65278,PERF: speed up DataFrame.plot with DatetimeIndex on wide DataFrames,unmerged,open,2026-04-18T18:28:46Z,2026-05-09T02:49:35Z,,jbrockmendel,0
+4288819521,65277,PERF: speed up tab completion for DataFrame/Series with a large index,unmerged,open,2026-04-18T18:18:39Z,2026-05-19T00:30:48Z,,jbrockmendel,1
+4273913274,65254,Backport PR #56762 on branch 2.3.x (DOC: Avoid requesting data from s3 buckets from our docs),unmerged,open,2026-04-16T07:20:58Z,2026-05-17T00:26:56Z,,hwhsu1231,3
+4272037482,65253,REF: back ArrowExtensionArray with pa.Table for 2D support,unmerged,open,2026-04-15T22:18:07Z,2026-05-03T15:29:47Z,,jbrockmendel,0
+4267909428,65251,ENH: add hyperlinks option to Excel readers,unmerged,open,2026-04-15T09:40:50Z,2026-05-16T03:57:39Z,,moi90,0
+4265814670,65250,Fixing issue with distinguish_nan_and_na and read_csv(),unmerged,open,2026-04-15T02:12:33Z,2026-05-23T00:29:12Z,,Willow-Zero,7
+4265490410,65248,BUG: _lexsort_depth incorrect when MultiIndex levels are not monotonically sorted,unmerged,open,2026-04-15T00:24:08Z,2026-05-05T19:24:57Z,,jbrockmendel,0
+4265329309,65247,BUG: DataFrame.loc with list of partial tuple keys on MultiIndex,unmerged,open,2026-04-14T23:32:38Z,2026-05-05T19:17:45Z,,jbrockmendel,0
+4265173529,65243,BUG: MultiIndex indexing silently drops labels present in level but missing in context,unmerged,open,2026-04-14T22:53:21Z,2026-05-17T00:26:57Z,,jbrockmendel,1
+4265166091,65242,BUG: DataFrame.loc setitem with partial MultiIndex key and DataFrame value,unmerged,open,2026-04-14T22:51:25Z,2026-05-17T00:26:59Z,,jbrockmendel,1
+4265080447,65238,BUG: fix loc setitem with partial MultiIndex column key producing NaN,unmerged,open,2026-04-14T22:30:28Z,2026-05-17T00:27:01Z,,jbrockmendel,1
+4265027703,65236,BUG: DataFrame.loc setitem with MultiIndex columns and partial key introduces NaN,unmerged,open,2026-04-14T22:16:26Z,2026-05-17T00:27:03Z,,jbrockmendel,1
+4264962394,65231,ENH: Make BaseMaskedArray methods 2D-compatible,unmerged,open,2026-04-14T21:59:14Z,2026-04-24T01:25:30Z,,jbrockmendel,0
+4257133168,65212,ENH: align timedelta fractional seconds in string repr (#57188),unmerged,open,2026-04-13T18:46:37Z,2026-05-20T20:29:35Z,,berasaikat,2
+4252684888,65205,ENH: upsert functionality to DataFrame.to_sql,unmerged,open,2026-04-13T08:32:57Z,2026-05-11T07:39:08Z,,JustinGuese,2
+4251252822,65200,BUG: Harden lxml XMLParser to disable XXE entity resolution (#64979),unmerged,open,2026-04-13T04:26:18Z,2026-04-28T01:31:43Z,,iabhi4,2
+4249096033,65195,PERF: vectorize _range_from_fields and _assemble_from_unit_mappings,unmerged,open,2026-04-12T17:26:52Z,2026-05-18T00:28:05Z,,jbrockmendel,1
+4248567226,65194,TST: add check_freq to assert_index_equal,unmerged,open,2026-04-12T15:18:42Z,2026-05-18T17:29:44Z,,jbrockmendel,1
+4246158263,65187,BUG: astype from tz-naive to tz-aware uses tz_localize semantics,unmerged,open,2026-04-12T01:20:13Z,2026-04-16T20:48:35Z,,jbrockmendel,0
+4245985536,65183,BUG: fix to_csv chunksize producing inconsistent dt64/td64 formatting,unmerged,open,2026-04-11T23:11:50Z,2026-05-21T00:31:54Z,,jbrockmendel,1
+4245951816,65181,DEPR: to_datetime with integer/float values and format argument,unmerged,open,2026-04-11T22:49:13Z,2026-05-14T04:11:13Z,,jbrockmendel,0
+4245519299,65173,DEPR: Deprecate passing integer-dtype data to PeriodArray/PeriodIndex,unmerged,open,2026-04-11T18:50:51Z,2026-05-14T04:11:27Z,,jbrockmendel,0
+4245516651,65172,DEPR: PeriodIndex/PeriodArray inferring freq from Series of datetime64,unmerged,open,2026-04-11T18:49:35Z,2026-05-19T16:06:18Z,,jbrockmendel,0
+4245028468,65164,"ENH: DataFrameGroupBy.transform now accepts list, dict, and NamedAgg arguments (GH#58318)",unmerged,open,2026-04-11T15:34:58Z,2026-05-20T19:29:41Z,,berasaikat,5
+4241808988,65159,BUG: Preserve dtype for NA columns during DataFrame reindex,unmerged,open,2026-04-10T21:26:03Z,2026-05-09T18:04:05Z,,jbrockmendel,0
+4233409370,65136,DOC: add User Guide link to DataFrame.fillna,unmerged,open,2026-04-09T15:48:48Z,2026-05-07T20:56:33Z,,mriganshu16,1
+4227204377,65127,ENH/BUG: Utilize `_values_for_json` in `Series.to_json`,unmerged,open,2026-04-08T19:45:58Z,2026-05-23T15:21:07Z,,Julian-Harbeck,10
+4225621340,65126,BUG: .loc with mixed scalar/slice on MultiIndex now drops scalar-keyed levels,unmerged,open,2026-04-08T15:19:29Z,2026-05-10T00:25:21Z,,jbrockmendel,1
+4224107940,65120,BUG: DataFrame.rank() loses ExtensionArray dtype (GH#52829),unmerged,open,2026-04-08T11:21:33Z,2026-05-06T20:49:41Z,,maheshmakvana,1
+4222188070,65117,BUG: fix read_parquet failing with TimedeltaIndex column (#59692),unmerged,open,2026-04-08T04:47:30Z,2026-05-06T16:52:09Z,,tianlangqin,0
+4218926408,65114,DOC: Add practical example for removing duplicate rows,unmerged,open,2026-04-07T15:54:21Z,2026-05-11T00:26:11Z,,Adeyinka1,3
+4218623662,65113,BUG: add `_str_getitem` to `ArrowStringArrayMixin`,unmerged,open,2026-04-07T15:05:34Z,2026-05-18T15:29:09Z,,tehunter,3
+4213817068,65102,BUG: Fix merge not upcasting datetime64 join key to highest resolution for inner/left joins,unmerged,open,2026-04-06T20:05:58Z,2026-05-13T00:28:23Z,,deniskrds,1
+4213421100,65098,ENH: Add union_categories parameter to pd.concat,unmerged,open,2026-04-06T18:40:32Z,2026-05-14T00:30:00Z,,jbrockmendel,1
+4213224111,65097,PERF: Speed up DataFrame.apply(axis=1) for ExtensionDtype columns,unmerged,open,2026-04-06T18:04:06Z,2026-05-16T15:46:03Z,,jbrockmendel,2
+4213221403,65096,BUG: fix PeriodIndex resample aggregation for superperiod and same-frequency cases,unmerged,open,2026-04-06T18:03:29Z,2026-05-08T00:24:47Z,,jbrockmendel,1
+4212978341,65093,PERF: use array indexing instead of hash lookup in recode_for_groupby,unmerged,open,2026-04-06T17:10:10Z,2026-05-07T00:24:36Z,,jbrockmendel,1
+4212957026,65092,PERF: speed up partial key indexing on MultiIndex Series,unmerged,open,2026-04-06T17:05:51Z,2026-05-07T00:24:38Z,,jbrockmendel,1
+4212944994,65091,PERF: fast-path factorization for monotonic groupby keys,unmerged,open,2026-04-06T17:03:19Z,2026-05-09T21:16:05Z,,jbrockmendel,0
+4205931066,65076,DOC: Fix dark mode text color in tutorial data callout sections,unmerged,open,2026-04-04T22:28:35Z,2026-05-19T21:05:10Z,,MehtabSandhu11,1
+4205052185,65069,BUG: fixed Interval to_json/read_json,unmerged,open,2026-04-04T14:21:28Z,2026-05-11T21:31:30Z,,NevroHelios,11
+4204075926,65067,WARN: add FutureWarning when DataFrame.update() is called with mismatched index dtypes (GH#19905),unmerged,open,2026-04-04T07:44:44Z,2026-05-11T21:30:46Z,,shch4747,4
+4204015059,65066,BUG: escape SQL identifiers in ADBCDatabase to prevent injection (#65065),unmerged,open,2026-04-04T07:28:35Z,2026-05-06T00:24:46Z,,betoalien,1
+4203800435,65064,BUG: reject non-positive datetimelike rolling windows,unmerged,open,2026-04-04T06:16:48Z,2026-05-05T00:24:57Z,,betoalien,1
+4201746197,65055,BUG: convert_dtypes with dtype_backend='pyarrow' for list/struct columns,unmerged,open,2026-04-03T18:40:41Z,2026-05-13T12:49:10Z,,joshuaswanson,3
+4201245947,65052,ENH: add sort() method to StringArray and ArrowStringArray,unmerged,open,2026-04-03T16:21:36Z,2026-05-15T20:36:03Z,,ssam18,7
+4199600874,65049,DOC: Add explanation for non-inclusive slicing on DatetimeIndex,unmerged,open,2026-04-03T09:44:35Z,2026-05-06T21:05:09Z,,mayank-vk,1
+4197488244,65043,BUG: fix colorbar side effect changing scatter colors when all c values identical (GH#64980),unmerged,open,2026-04-02T23:46:48Z,2026-05-04T00:24:10Z,,ssam18,1
+4197260943,65040,BUG: fix Index._join_level dropping NaN entries from MultiIndex,unmerged,open,2026-04-02T22:22:03Z,2026-04-21T17:48:13Z,,jbrockmendel,0
+4197198083,65037,BUG: Fix DataFrame.eval to return scalar for string literal with `in/not in` operators,unmerged,open,2026-04-02T22:01:51Z,2026-05-04T00:24:11Z,,deniskrds,1
+4195823556,65029,CLN: move empty-array handling from bottleneck_switch into individual nanops functions (GH#18976),unmerged,open,2026-04-02T16:58:39Z,2026-04-27T14:58:07Z,,harrywzl,4
+4195537640,65020,"BUG: Fix groupby pct_change with freq, clean up GH#23918 xfail",unmerged,open,2026-04-02T16:01:02Z,2026-04-11T19:09:19Z,,jbrockmendel,0
+4190344778,64996,ENH: Change ExtensionOpsMixin to not overwrite operator methods alrea…,unmerged,open,2026-04-01T22:48:22Z,2026-05-12T16:46:11Z,,DeeptimaanB,16
+4190248617,64995,DOC: clarify Series index alignment in DataFrame.assign,unmerged,open,2026-04-01T22:23:57Z,2026-05-03T00:23:59Z,,Adeyinka1,2
+4188799987,64990,BUG: NumpyEADtype equality comparison with type objects and np.dtype,unmerged,open,2026-04-01T17:51:43Z,2026-05-04T09:13:46Z,,joshuaswanson,5
+4180389199,64959,DEPR: fillna with incompatible value casting,unmerged,open,2026-03-31T15:59:25Z,2026-05-08T21:48:05Z,,jbrockmendel,0
+4180277191,64954,BUG: Fix to_period losing month anchor for start/business offsets,unmerged,open,2026-03-31T15:41:59Z,2026-05-09T16:40:08Z,,jbrockmendel,0
+4174152797,64937,fix str.replace regex inconsistency between pyarrow and python backends,unmerged,open,2026-03-30T21:20:35Z,2026-04-06T11:20:28Z,,knQzx,0
+4173368697,64933,ENH: Support negative indexing in ListAccessor for PyArrow-backed Series,unmerged,open,2026-03-30T19:10:08Z,2026-05-04T00:24:15Z,,deniskrds,1
+4161167282,64911,Adds arrow accessors to table,unmerged,open,2026-03-28T18:11:25Z,2026-04-29T00:25:25Z,,Delengowski,1
+4159469864,64905,PERF: Add SIMD instructions with xsimd to reduce moments,unmerged,open,2026-03-28T11:31:54Z,2026-05-21T00:31:35Z,,Alvaro-Kothe,13
+4154992167,64899,ENH: Add %N directive to Timestamp.strftime for nanosecond formatting,unmerged,open,2026-03-27T18:23:35Z,2026-05-18T14:52:43Z,,jbrockmendel,0
+4154241371,64894,Contrib documentation fixes 032025,unmerged,open,2026-03-27T16:34:38Z,2026-04-22T17:00:17Z,,Willow-Zero,1
+4143938055,64879,ENH: Add an option to prevent stripping extra whitespaces in pd.read_html,unmerged,open,2026-03-26T13:28:12Z,2026-05-03T15:59:26Z,,CharlesGaydon-Servier,3
+4143742959,64878,DOC: Add explanation for ~ (not) operator in boolean indexing,unmerged,open,2026-03-26T13:05:48Z,2026-05-06T21:45:19Z,,sat-06,2
+4143741030,64877,BUG: Raise ValueError for non-string columns in read_json orient='tab…,unmerged,open,2026-03-26T13:05:34Z,2026-04-26T05:31:48Z,,vivek-2567,0
+4140300713,64875,BUG: respect min_rows in DataFrame.to_string truncation,unmerged,open,2026-03-26T03:53:30Z,2026-04-29T00:25:30Z,,An1k4et,1
+4139640607,64870,BUG: Fix TimedeltaIndex string slice resolution,unmerged,open,2026-03-26T01:14:55Z,2026-05-21T22:41:40Z,,jbrockmendel,0
+4139518944,64867,DOC: add inline examples for Multiindexing/Levels section,unmerged,open,2026-03-26T00:44:20Z,2026-04-11T14:57:03Z,,harrywzl,0
+4139502046,64865,"DOC: DataFrame.apply, resolved raw formatting",unmerged,open,2026-03-26T00:39:09Z,2026-04-09T21:58:43Z,,hbd9577,0
+4139468035,64864,PERF: optimize _libs.algos for SIMD auto-vectorization and GIL release,unmerged,open,2026-03-26T00:27:52Z,2026-05-21T22:41:12Z,,jbrockmendel,2
+4139374368,64851,DEPR: deprecate .loc row expansion with non-tuple key on MultiIndex,unmerged,open,2026-03-26T00:00:46Z,2026-05-04T21:08:32Z,,jbrockmendel,0
+4135492089,64839,ENH: Improved UUID support for ArrowExtensionArray,unmerged,open,2026-03-25T13:34:54Z,2026-05-18T21:11:14Z,,eenbeneen,2
+4132239101,64835,BUG: fix concat with overlapping IntervalIndex levels (#64825),unmerged,open,2026-03-25T03:58:55Z,2026-05-06T21:51:52Z,,An1k4et,2
+4125973616,64823,TST: add regression test for GH#25891 MultiIndex level dropped with single-entry Series arithmetic,unmerged,open,2026-03-24T07:59:45Z,2026-04-04T00:09:26Z,,gambletan,1
+4123850769,64803,BUG: fix _can_fast_intersect for non-anchored freqs,unmerged,open,2026-03-23T21:32:16Z,2026-04-18T22:12:50Z,,jbrockmendel,0
+4123700794,64793,BUG: make resample with Day freq consistent with equivalent Hour freq,unmerged,open,2026-03-23T20:59:11Z,2026-04-07T17:12:28Z,,jbrockmendel,0
+4114101399,64751,DEPR: DataFrame/Series.to_period and .to_timestamp,unmerged,open,2026-03-21T22:56:08Z,2026-05-03T14:50:00Z,,jbrockmendel,1
+4101580592,64710,TST: add mutation-catching test for reindex column fill_value (#58517),unmerged,open,2026-03-19T13:07:59Z,2026-04-20T03:05:42Z,,kimimgo,0
+4098683910,64701,DEPR: Series.dt.freq returning a string instead of DateOffset,unmerged,open,2026-03-19T01:39:29Z,2026-05-19T16:08:13Z,,jbrockmendel,0
+4098598822,64699,"DEPR: isinstance(obj, DateOffset) for non-DateOffset offsets",unmerged,open,2026-03-19T01:11:39Z,2026-05-19T16:09:17Z,,jbrockmendel,0
+4092347330,64678,DEPR: warn on silent dtype changes during setitem-with-expansion,unmerged,open,2026-03-18T02:44:20Z,2026-05-02T01:24:40Z,,jbrockmendel,2
+4091928297,64667,BUG: Fix empty cells when hiding index in Styler.to_typst,unmerged,open,2026-03-18T00:26:39Z,2026-04-09T21:56:07Z,,SaketSinha2005,1
+4090099581,64660,DEPR: pinning group key to name attribute in groupby UDFs,unmerged,open,2026-03-17T17:38:37Z,2026-05-18T14:55:11Z,,jbrockmendel,0
+4089934455,64659,"BUG: read_csv dtype=""category"" now infers numeric categories",unmerged,open,2026-03-17T17:10:00Z,2026-05-18T17:31:06Z,,jbrockmendel,1
+4086771355,64651,DOC: add MSVC v143 fallback for cl.exe not found error,unmerged,open,2026-03-17T07:39:06Z,2026-05-06T21:08:10Z,,Julian901,0
+4085540392,64647,"DEPR: DatetimeIndex dayfirst, yearfirst, ambiguous keywords",unmerged,open,2026-03-17T00:40:33Z,2026-05-03T14:54:50Z,,jbrockmendel,0
+4085445354,64645,"DEPR: deprecate parsing quarterly strings in Timestamp, to_datetime, DatetimeIndex",unmerged,open,2026-03-17T00:10:45Z,2026-04-25T15:55:18Z,,jbrockmendel,0
+4085178645,64641,PERF: use StringHashTable for StringArray.value_counts and .duplicated,unmerged,open,2026-03-16T22:44:29Z,2026-05-03T14:51:24Z,,jbrockmendel,0
+4078836398,64613,"DEPR: .values lossy behavior for DatetimeTZDtype, PeriodDtype, IntervalDtype",unmerged,open,2026-03-15T17:41:51Z,2026-05-18T17:28:41Z,,jbrockmendel,0
+4073442511,64585,DOC: Switch to using gh-pages for documentation.,unmerged,open,2026-03-13T21:18:07Z,2026-04-15T00:21:19Z,,TkTech,1
+4059695281,64535,ENH: Plotting support for ExtensionArrays,unmerged,open,2026-03-11T17:46:12Z,2026-04-24T02:44:07Z,,Julian-Harbeck,5
+4054938762,64515,PERF: Use SIMD for read_csv C tokenizer,unmerged,open,2026-03-11T00:21:37Z,2026-05-12T00:21:08Z,,jbrockmendel,9
+4038350989,64449,BUG: Fix loss of precision when exporting doubles to JSON,unmerged,open,2026-03-07T12:18:13Z,2026-04-17T00:19:52Z,,bgoblyos,10
+4034905167,64425,BUG: fix non-unitary anchored resample edge alignment,unmerged,open,2026-03-06T15:52:27Z,2026-04-08T00:17:15Z,,LarytheLord,5
+4005229036,64347,PERF: parallelize read_csv,unmerged,open,2026-02-28T19:28:17Z,2026-05-20T09:54:47Z,,jbrockmendel,16
+4002545361,64342,ENH: Add arrow engine to to_csv,unmerged,open,2026-02-27T19:31:21Z,2026-05-07T13:45:17Z,,swt2c,5
+4002313823,64341,BUG: Fix assert_frame_equal with check_dtype=False for pd.NA GH#61473,unmerged,open,2026-02-27T18:30:07Z,2026-04-28T00:24:13Z,,MounikaYerramsetti26,2
+3999766930,64333,DOC: clarify read_fwf filepath_or_buffer semantics,unmerged,open,2026-02-27T08:11:56Z,2026-04-06T00:16:15Z,,LarytheLord,1
+3997556751,64327,BUG: Fix df.query('abs(col) == [...]') membership rewrite (#31848),unmerged,open,2026-02-26T20:16:15Z,2026-04-04T00:13:56Z,,arjunmenon17,4
+3996760743,64323,DOC: document non-inclusive slicing on DatetimeIndex,unmerged,open,2026-02-26T17:15:37Z,2026-04-06T00:16:17Z,,yoginlangalia,1
+3989587933,64307,ENH: allow urlopen timeout via storage_options,unmerged,open,2026-02-25T13:46:38Z,2026-04-15T00:21:23Z,,alexbogun,1
+3986551344,64302,BUG: Fixed extra blank row in to_excel for MultiIndex with empty names (#27772),unmerged,open,2026-02-25T00:55:27Z,2026-04-17T08:25:07Z,,NicoRicardi,8
+3978813656,64285,"ENH: Implement `series.argsort(order=, stable=)`",unmerged,open,2026-02-23T15:37:15Z,2026-04-22T17:46:05Z,,yushiyangk,1
+3977172438,64282,BUG: enforce 1-dimensional input in pandas.array,unmerged,open,2026-02-23T09:28:26Z,2026-04-25T08:05:33Z,,hyoj0942,1
+3972524914,64265,ENH: Add support for universal-pathlib via pathlib-abc,unmerged,open,2026-02-21T18:46:22Z,2026-03-24T00:11:29Z,,ap--,1
+3956322561,64215,BUG: Fix unstack with sort=False for MultiIndex with unused levels,unmerged,open,2026-02-18T07:07:28Z,2026-05-24T05:07:52Z,,hasanrashid,0
+3952949690,64190,"""Backport PR #64092 on branch 2.3.x (BUG: DataFrame.loc fills b'' instead of NaN when adding new row and columns simultaneously (#58316))""",unmerged,open,2026-02-17T14:07:42Z,2026-04-03T16:20:35Z,,roeimed0,6
+3944508847,64155,"API: implement Period(|Dtype|Array|Index).unit, remove ._freqstr",unmerged,open,2026-02-15T17:13:04Z,2026-05-18T14:59:46Z,,jbrockmendel,2
+3942082992,64153,BUG: Case not preserved for quoted string literals in CSS properties,unmerged,open,2026-02-14T19:07:00Z,2026-04-09T21:40:10Z,,sjalkote,2
+3937225475,64132,BUG: raise ValueError when unit passed to to_datetime with datetime-like input,unmerged,open,2026-02-13T13:35:56Z,2026-04-11T16:12:55Z,,Mr-Neutr0n,3
+3927067611,64118,Fix doc alignment,unmerged,open,2026-02-11T15:07:32Z,2026-05-03T17:12:47Z,,AnkitSharma-29,2
+3912559945,64075,BUG: Series.iloc assignment with dtype=object converts dictionary to Series,unmerged,open,2026-02-08T11:18:56Z,2026-05-13T08:05:33Z,,roeimed0,2
+3910225996,64066,DOC: Clarify NA normalization behavior for StringDtype,unmerged,open,2026-02-07T12:58:49Z,2026-04-29T17:24:51Z,,An1k4et,4
+3910072032,64064,BUG: fix NaN identity check in Categorical.map,unmerged,open,2026-02-07T11:31:14Z,2026-05-21T17:41:51Z,,vkverma9534,5
+3909761867,64061,DOC: clarify .str behaviour on mixed-type Series,unmerged,open,2026-02-07T08:11:00Z,2026-03-22T00:13:01Z,,agnuspaul98,2
+3902681130,64040,BUG: Preserve StringDtype in where with list-like other,unmerged,open,2026-02-05T17:21:30Z,2026-05-11T20:14:38Z,,sanrishi,11
+3893550164,64014,BUG: groupby.agg should always agg,unmerged,open,2026-02-03T22:33:20Z,2026-03-07T11:51:48Z,,rhshadrach,0
+3879744714,63963,BUG: Fix searchsorted with NA values in masked arrays,unmerged,open,2026-01-31T18:18:33Z,2026-03-13T00:11:52Z,,mwael-labs,1
+3869178740,63931,DOC: assert_frame_equal changes behavior in 3.0 for nested arrays wit…,unmerged,open,2026-01-29T07:06:52Z,2026-05-17T23:10:36Z,,kjmin622,8
+3859020064,63896,BUG: Raise on nested list w/ dtype producing 2D array in Series constructor,unmerged,open,2026-01-27T06:20:20Z,2026-03-06T16:55:22Z,,bilichboris,0
+3847308038,63831,BUG: missing value after comparison,unmerged,open,2026-01-23T12:45:41Z,2026-05-20T17:18:34Z,,Sharl0tteIsTaken,9
+3842867158,63809,Fix read_xml default namespace handling,unmerged,open,2026-01-22T13:05:02Z,2026-03-22T22:35:41Z,,Nitya-Choudhary,3
+3841389969,63805,Doc: Generate Arrow fallback Reference tables,unmerged,open,2026-01-22T06:04:38Z,2026-05-05T21:34:55Z,,fangchenli,8
+3825442068,63720,BUG: Fix to_csv/astype tz-aware datetime formatting inconsistency,unmerged,open,2026-01-17T15:49:47Z,2026-03-11T19:27:56Z,,deniskrds,1
+3820995999,63703,BLD: use meson's NumPy resolution mechanism for building,unmerged,open,2026-01-16T08:38:11Z,2026-02-19T00:13:33Z,,jorisvandenbossche,5
+3815693721,63691,DOC: Clarify how skiprows interacts with header in read_csv,unmerged,open,2026-01-15T02:31:14Z,2026-03-06T17:08:38Z,,Nodrance,2
+3811512825,63678,DOC: clarify read_xml xpath behavior with default namespace,unmerged,open,2026-01-14T04:45:32Z,2026-05-09T04:57:26Z,,parshvak26,2
+3810797684,63677,BUG: assert_series_equal failing when comparing two series of null-like values of different types when using the parameter check_dtype=False,unmerged,open,2026-01-13T22:17:01Z,2026-04-29T16:45:38Z,,jerrywbirnbaum,1
+3807160252,63664,BUG: replace deprecated html border attribute used in html.py to css,unmerged,open,2026-01-13T05:22:55Z,2026-04-09T21:32:59Z,,JuanCarlos3,0
+3800324589,63635,BUG: Ensure MultiIndex level order is preserved by name in concat,unmerged,open,2026-01-10T20:40:18Z,2026-03-09T16:00:35Z,,Flix6x,0
+3797912890,63623,DOC: Add note about SQL Server temp table datetime precision loss (#62995),unmerged,open,2026-01-09T18:23:02Z,2026-05-04T07:00:02Z,,WalkingDevFlag,1
+3797483749,63621,DOC: Add an example for .shift(suffix=),unmerged,open,2026-01-09T16:04:00Z,2026-03-06T17:09:40Z,,wjandrea,8
+3783178916,63580,DOC: fix offline documentation search behavior,unmerged,open,2026-01-05T23:31:25Z,2026-05-06T21:37:24Z,,Asmi768,1
+3775123252,63532,BUG: Avoid precision loss for large integral Decimal values in read_sql with coerce_float=True ,unmerged,open,2026-01-01T19:54:45Z,2026-04-05T02:35:42Z,,gautamvarmadatla,6
+3770578318,63512,API: Add reduction methods to pandas EAs,unmerged,open,2025-12-30T15:41:49Z,2026-05-20T03:04:36Z,,rhshadrach,3
+3767777931,63503,BUG: Fix for Issue 53028 - Fix DictCursor returning column names,unmerged,open,2025-12-29T16:11:55Z,2026-02-02T02:52:40Z,,AMRUTH-ASHOK,1
+3759448665,63479,"ENH: adopt PEP 770, add SBOM to wheel",unmerged,open,2025-12-24T07:11:52Z,2026-05-12T17:48:29Z,,fangchenli,1
+3756541619,63470,PERF: use Arrow native path in duration component calculation for Arrow-backed array,unmerged,open,2025-12-23T08:25:13Z,2026-05-12T18:43:22Z,,fangchenli,3
+3745168814,63416,PERF: add an Arrow/NumPy hybrid groupby path for decimal and string types.,unmerged,open,2025-12-18T23:07:03Z,2026-02-18T04:54:27Z,,fangchenli,0
+3725933981,63351,DEPR: deprecate silent alignment on arithmetic operations between Series with non-aligned MultiIndexes,unmerged,open,2025-12-13T12:57:21Z,2026-05-20T21:38:17Z,,natmokval,8
+3604459405,63053,ENH: Add right argument to pandas.qcut to support left-inclusive binning #62938,unmerged,open,2025-11-09T04:43:14Z,2026-01-19T17:54:28Z,,sarahuston77,4
+3597166778,63013,BUG: Fix tz-aware comparison in plot() causing failures when timeseries begins at DST boundary,unmerged,open,2025-11-06T19:00:07Z,2026-03-04T15:28:19Z,,Faheem12005,3
+3586660259,62979,"BUG: Validate path type in read_parquet, reject non-path/file-like",unmerged,open,2025-11-04T13:44:24Z,2026-03-24T17:01:42Z,,YukunR,1
+3579785969,62961,ENH: Add left_semi merge,unmerged,open,2025-11-02T18:05:06Z,2026-04-11T15:39:34Z,,phofl,2
+3578096093,62952,Enable roundtripping nested dtypes through parquet and arrow,unmerged,open,2025-11-01T15:03:56Z,2026-01-19T17:54:28Z,,phofl,1
+3568525770,62913,"When getting the numpy datatype, return datetime64[D] for pa.Date32 and return datetime64[ms] for pa.Date64",unmerged,open,2025-10-30T00:58:51Z,2026-03-18T16:16:53Z,,linicole74,4
+3559472724,62892,BUG: Catch all exceptions raised while calling PyObjectHashTable methods,unmerged,open,2025-10-28T02:33:04Z,2026-05-23T18:41:18Z,,matiaslindgren,12
+3556871825,62880,BUG: for ordered categorical data implements correct computation of kendall/spearman correlations,unmerged,open,2025-10-27T13:44:55Z,2026-01-20T22:19:57Z,,pandeconscious,1
+3504123802,62644,BUG: Fix inconsistency when read_csv reads MultiIndex with empty values (#59560),unmerged,open,2025-10-10T18:44:34Z,2026-03-10T20:54:02Z,,allamlobna,2
+3491412254,62610,ENH: Implement MultiIndex.insert_level for inserting levels at specified positions,unmerged,open,2025-10-07T13:03:07Z,2026-04-11T15:59:03Z,,Chiwendaiyue,6
+3483756746,62578,BUG: read_sql wraps plain SQL strings in sqlalchemy.text() to allow % modulo and LIKE patterns (#35484),unmerged,open,2025-10-04T13:49:29Z,2026-03-26T00:55:51Z,,SergioGarcia00,6
+3483589264,62576,BUG : Fix Excel header NaN duplication with merged MultiIndex columns in to_excel,unmerged,open,2025-10-04T11:28:17Z,2026-01-19T17:54:28Z,,justine202429,2
+3482584724,62568,Added legend_loc parameter to plot function,unmerged,open,2025-10-03T21:17:15Z,2026-04-11T16:01:58Z,,mittal-aakriti,9
+3470454972,62519,CI: specify supported glibc/musl versions for wheel,unmerged,open,2025-09-30T17:46:13Z,2026-04-12T01:45:52Z,,Alvaro-Kothe,3
+3451382528,62440,"DEPR: unit->input_unit in to_datetime, to_timedelta",unmerged,open,2025-09-25T00:31:18Z,2026-05-18T15:02:30Z,,jbrockmendel,5
+3287304965,62035,BUG: raise a proper exception when str.rsplit is passed a regex and clarify the docs,unmerged,open,2025-08-03T16:07:18Z,2026-04-16T13:18:02Z,,hamdanal,3
+3198494657,61764,ENH: speed up wide DataFrame.line plots by using a single LineCollection,unmerged,open,2025-07-03T08:16:19Z,2026-04-11T16:35:09Z,,EvMossan,3
+3091911733,61499,ENH: Support Plugin Accessors Via Entry Points,unmerged,open,2025-05-26T19:12:20Z,2026-01-19T17:54:29Z,,PedroM4rques,19
+3091789032,61498,ENH: Add `force_suffixes` boolean argument to `pd.merge`,unmerged,open,2025-05-26T17:59:35Z,2026-01-19T17:54:29Z,,kopytjuk,13
+3073461741,61457,ENH: Added `DataFrame.nsorted` to select top ``n`` rows according to column-dependent order,unmerged,open,2025-05-19T11:11:18Z,2026-01-19T17:54:29Z,,MartinBraquet,5
+3057668111,61435,ENH: Implemented MultiIndex.searchsorted method ( GH14833) ,unmerged,open,2025-05-12T17:35:52Z,2026-01-19T17:54:29Z,,GSAUC3,15
+2806631585,60772,BUG: Add fillna at the beginning of _where not to fill NA. #60729,unmerged,open,2025-01-23T11:18:01Z,2026-04-21T12:36:50Z,,sanggon6107,10
+2349142041,58988,PDEP-16: Consistent missing value handling,unmerged,open,2024-06-12T16:01:46Z,2026-01-19T17:54:29Z,,jorisvandenbossche,4
+2215498582,58072,Add `strict_na` keyword to the assert_.._equal methods for object dtype to help with deprecation,unmerged,open,2024-03-29T14:32:49Z,2026-05-13T22:05:59Z,,jorisvandenbossche,8
