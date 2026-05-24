@@ -11,7 +11,7 @@ REPO = "pandas-dev/pandas"
 TARGET_MERGED_COUNT = 500
 TARGET_UNMERGED_COUNT = 500
 TARGET_ISSUES_COUNT = 1700
-TOKEN = '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'
+TOKEN = 'isi_token'
 
 # ============================================
 # SETUP
