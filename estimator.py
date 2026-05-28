@@ -13,16 +13,25 @@ def mle_bernoulli(data):
         return 0
     return np.mean(data)
 
-def log_likelihood_bernoulli(p, data):
+def log_likelihood_bernoulli(p, k, n=None):
     """
-    Menghitung Log-Likelihood dari data Bernoulli berdasarkan parameter p.
+    Menghitung Log-Likelihood dari distribusi Bernoulli secara fleksibel.
+    Bisa menerima (p, data_biner) ATAU (p, k, n).
     """
-    # Menghindari log(0) dengan clip nilai p
+    # Menghindari log(0) atau log(1) yang menghasilkan -inf/nan
     p = np.clip(p, 1e-10, 1 - 1e-10)
-    n = len(data)
-    k = np.sum(data)
-    return k * np.log(p) + (n - k) * np.log(1 - p)
-
+    
+    # Jika argumen kedua berupa array/Series data mentah biner
+    if isinstance(k, (list, np.ndarray, pd.Series)):
+        data = k
+        k_success = np.sum(data)
+        n_total = len(data)
+    else:
+        # Jika argumen berupa k (jumlah sukses) dan n (total data) langsung
+        k_success = k
+        n_total = n
+        
+    return k_success * np.log(p) + (n_total - k_success) * np.log(1 - p)
 
 # ==========================================
 # 2. POISSON DISTRIBUTION
@@ -53,17 +62,25 @@ def log_likelihood_poisson(lam, data):
 # 3. BAYESIAN INFERENCE (BETA-BINOMIAL)
 # ==========================================
 
-def beta_posterior(alpha_prior, beta_prior, data):
+def beta_posterior(k, m, alpha_prior=1, beta_prior=1):
     """
-    Mengupdate parameter distribusi Beta (Posterior) setelah melihat data Bernoulli.
-    Rumus: 
-      alpha_posterior = alpha_prior + sukses (jumlah angka 1)
-      beta_posterior  = beta_prior + gagal (jumlah angka 0)
+    Menghitung parameter posterior Beta berdasarkan jumlah sukses (k) dan gagal (m).
+    Mengembalikan dictionary sesuai kebutuhan notebook.
     """
-    sukses = np.sum(data)
-    gagal = len(data) - sukses
+    alpha_post = alpha_prior + k
+    beta_post = beta_prior + m
     
-    alpha_post = alpha_prior + sukses
-    beta_post = beta_prior + gagal
+    # Rumus Mean dan Mode Posterior (Tsun, 2020)
+    mean_post = alpha_post / (alpha_post + beta_post)
     
-    return alpha_post, beta_post
+    if alpha_post > 1 and beta_post > 1:
+        mode_post = (alpha_post - 1) / (alpha_post + beta_post - 2)
+    else:
+        mode_post = 0.5 # Default jika uniform berlanjut
+        
+    return {
+        'alpha': alpha_post,
+        'beta': beta_post,
+        'mean': mean_post,
+        'mode': mode_post
+    }
