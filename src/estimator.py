@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 
 # ==========================================
 # 1. BERNOULLI DISTRIBUTION
@@ -21,13 +22,12 @@ def log_likelihood_bernoulli(p, k, n=None):
     # Menghindari log(0) atau log(1) yang menghasilkan -inf/nan
     p = np.clip(p, 1e-10, 1 - 1e-10)
     
-    # Jika argumen kedua berupa array/Series data mentah biner
-    if isinstance(k, (list, np.ndarray, pd.Series)):
-        data = k
-        k_success = np.sum(data)
-        n_total = len(data)
+    # Cek apakah k berupa koleksi data mentah (list/array/Series) tanpa memanggil 'pd'
+    if hasattr(k, '__iter__') or n is None:
+        k_success = np.sum(k)
+        n_total = len(k)
     else:
-        # Jika argumen berupa k (jumlah sukses) dan n (total data) langsung
+        # Jika k adalah angka jumlah sukses, dan n adalah total data
         k_success = k
         n_total = n
         
