@@ -45,8 +45,8 @@ Berapa probabilitas sebuah issue butuh lebih dari 30 hari untuk ditutup?
 ## Team Table
 | Nama                   | NIM          |
 |------------------------|--------------|
-| Raynar Usman Annafis   | 15196250xx   | 
+| Raynar Usman Annafis   | 1519625013   | 
 | Zaky Aditya Susanto    | 1519625023   |
 | Bethelina Imanuella Y  | 1519625014   |
 | Kirana Cinta Mentari   | 1519625021   | 
-| Luqman                 | 15196250xx   | 
+| Luqman                 | 1519625072   | 
